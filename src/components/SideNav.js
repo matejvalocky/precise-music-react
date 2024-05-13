@@ -24,9 +24,9 @@ const SideNav = () => {
       </div>
       <div className="linksAndYear">
         <div className="links">
-          <div className="linksItem"> <div className="linksIcon"></div>YouTube</div>
-          <div className="linksItem"> <div className="linksIcon"></div>House-Mixes</div>
-          <div className="linksItem"> <div className="linksIcon"></div>MojeVideo</div>
+          <div className="linksIcon"></div>
+          <div className="linksIcon"></div>
+          <div className="linksIcon"></div>
         </div>
         <div className="year">
           <p>2024</p>
