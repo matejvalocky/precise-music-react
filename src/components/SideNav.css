@@ -1,0 +1,96 @@
+.sideNavigation{
+    width: 200px;
+    height: 100vh;
+    background-color: #17181B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+
+.logoImage{
+    width: 200px;
+    height: 200px;
+    background-image: url(../../img/LOGO-240.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    color: #818181;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+
+nav ul li{
+    width: 200px;
+    padding: 15px 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px rgb(87, 87, 87) solid;
+}
+
+.homeIcon{
+    background-image: url(../../img/LOGO-240.png);
+   
+
+}
+
+.icon{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: yellow;
+}
+
+.links{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksItem{
+    padding: 10px 0;
+    width: 150px;
+    color: #818181;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.linksIcon{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: 1px white solid;
+}
+
+.year{
+    text-align: center;
+    padding-bottom: 20px;
+}
