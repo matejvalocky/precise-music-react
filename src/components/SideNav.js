@@ -35,7 +35,8 @@ const SideNav = () => {
         </div>
         <div className="year">
           <p>2024</p>
-          <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank">Template</a>
+          <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank">Template</a> <br />
+          <a href="https://www.flaticon.com/">Icons</a>
         </div>
       </div>
     </div>
