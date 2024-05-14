@@ -22,7 +22,7 @@ const SideNav = () => {
               <div className="musicIcon icon"></div> Mixes
             </li>
             <li>
-              <div className="homeIcon icon"></div>Links
+              <div className="linksIconNav icon"></div>Links
             </li>
           </ul>
         </nav>
@@ -36,7 +36,7 @@ const SideNav = () => {
         <div className="year">
           <p>2024</p>
           <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank">Template</a> <br />
-          <a href="https://www.flaticon.com/">Icons</a>
+          <a href="https://www.flaticon.com/" target="_blank">Icons</a>
         </div>
       </div>
     </div>

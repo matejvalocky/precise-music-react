@@ -74,19 +74,19 @@ nav ul li{
 }
 
 .homeIcon{
-    background-image: url(../../icons/home.png);
+    background-image: url(../../icons/home-grey.png);
 }
 
 .aboutIcon{
-    background-image: url(../../icons/aboutme.png);
+    background-image: url(../../icons/aboutme-grey.png);
 }
 
 .musicIcon{
-    background-image: url(../../icons/music.png);
+    background-image: url(../../icons/music-grey.png);
 }
 
 .linksIconNav{
-    background-image: url(../../icons/link.png);
+    background-image: url(../../icons/link-grey.png);
 }
 
 .icon{
