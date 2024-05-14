@@ -5,10 +5,9 @@ const SideNav = () => {
     <div className="sideNavigation">
       <div className="logoAndNav">
         <div className="logoImage">
-        <div className="opacityBlock">
+          <div className="opacityBlock">
             <h2>Drum and Bass Mixes</h2>
-        </div>
-            
+          </div>
         </div>
         <nav>
           <ul>
@@ -29,14 +28,20 @@ const SideNav = () => {
       </div>
       <div className="linksAndYear">
         <div className="links">
-          <div className="linksIcon"></div>
-          <div className="linksIcon"></div>
-          <div className="linksIcon"></div>
+          <a href="https://www.youtube.com/@PreciseMusic/videos" target="_blank">
+            <div className="linksIcon youtubeIcon"></div>
+          </a>
+          <a href="https://www.house-mixes.com/profile/PreciseMusic" target="_blank">
+            <div className="linksIcon housemixesIcon"></div>
+          </a>
+          <a href="https://www.mojevideo.sk/u/precisemusic/" target="_blank">
+            <div className="linksIcon mojevideoIcon"></div>
+          </a>
         </div>
         <div className="year">
           <p>2024</p>
-          <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank">Template</a> <br />
-          <a href="https://www.flaticon.com/" target="_blank">Icons</a>
+          {/* <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank">Template</a> <br />
+          <a href="https://www.flaticon.com/" target="_blank">Icons</a> */}
         </div>
       </div>
     </div>
