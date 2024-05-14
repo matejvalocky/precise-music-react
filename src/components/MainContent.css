@@ -1,0 +1,18 @@
+
+
+.mainContent{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/slideshow/img4-grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent h1{
+    color: #d4d4d4;
+    font-size: 100px;
+}
