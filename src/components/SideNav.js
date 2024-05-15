@@ -1,4 +1,5 @@
 import "./SideNav.css";
+import { Link } from "react-router-dom"
 
 const SideNav = () => {
   return (
@@ -12,16 +13,16 @@ const SideNav = () => {
         <nav>
           <ul>
             <li>
-              <div className="homeIcon icon"></div> Home
+              <Link to="/" className="menuLink"><div className="homeIcon icon"></div><p>Home</p></Link>
             </li>
             <li>
-              <div className="aboutIcon icon"></div> About me
+              <Link to="/about" className="menuLink"><div className="aboutIcon icon"></div><p>About</p></Link>
             </li>
             <li>
-              <div className="musicIcon icon"></div> Mixes
+              <Link to="/mixes" className="menuLink"><div className="musicIcon icon"></div><p>Mixes</p> </Link>
             </li>
             <li>
-              <div className="linksIconNav icon"></div>Links
+              <Link to="/links" className="menuLink"><div className="linksIconNav icon"></div> <p>Links</p></Link>
             </li>
           </ul>
         </nav>

@@ -1,9 +1,11 @@
+import SideNav from "../components/SideNav"
 
 
 const Mixes = () => {
   return (
-    <div>
-      Mixes
+    <div className="app">
+     <SideNav></SideNav>
+     
     </div>
   )
 }

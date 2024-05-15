@@ -1,9 +1,11 @@
+import SideNav from "../components/SideNav"
 
 
 const Links = () => {
   return (
-    <div>
-      Links
+    <div className="app">
+     <SideNav></SideNav>
+     
     </div>
   )
 }

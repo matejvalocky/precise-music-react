@@ -1,22 +1,3 @@
-
-// import SideNav from "./components/SideNav"
-// import MainContent from "./components/MainContent"
-
-
-
-
-// const App = () => {
-//   return (
-//     <div className="app">
-//      <SideNav></SideNav>
-//      <MainContent></MainContent>
-//     </div>
-//   )
-// }
-
-// export default App
-
-
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -30,7 +11,7 @@ const App = () => {
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}></Route>
       <Route path="/mixes" element={<Mixes />}></Route>
-      <Route path="/Links" element={<Links/>}></Route>
+      <Route path="/links" element={<Links/>}></Route>
     </Routes>
   </BrowserRouter>
 }
