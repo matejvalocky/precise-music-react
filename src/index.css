@@ -11,6 +11,10 @@
   letter-spacing: 1px;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 
 .app{
   width: 100vw;

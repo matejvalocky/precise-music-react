@@ -1,6 +1,9 @@
-import "./MainContent.css";
+// OBECNE CSS
 import "./Content.css"
 
+
+// KONKRETNE CSS
+import "./MainContent.css";
 const MainContent = () => {
   return (
     <div className="mainContent content">

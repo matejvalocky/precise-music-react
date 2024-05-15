@@ -1,5 +1,9 @@
-import "./AboutContent.css"
+// OBECNE CSS
 import "./Content.css"
+import "./Wrapper.css"
+
+//KONKRETNE CSS
+import "./AboutContent.css"
 
 const AboutContent = () => {
   return (
