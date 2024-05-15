@@ -1,0 +1,46 @@
+.aboutContent{
+    background-image: url(../../img/slideshow/img3-dark.jpg);
+}
+
+.wrapper{
+    padding: 20px 50px;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.wrapper h1{
+    display: block;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.languageWrapper{
+    background-color: black;
+    opacity: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.aboutWrapper{
+    padding: 20px;
+    color: white;
+    width: 500px;
+    text-align: justify;
+}
+
+.aboutWrapper h2{
+    
+    color: white;
+    text-decoration: underline;
+}
+
+.aboutWrapper p{
+    margin: 25px 0;;
+}
