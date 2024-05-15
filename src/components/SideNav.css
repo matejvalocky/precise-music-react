@@ -190,3 +190,10 @@ nav ul li .icon :not(:hover){
     text-align: center;
     padding-bottom: 20px;
 }
+
+.year a{
+    color: #818181;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+}

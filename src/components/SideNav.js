@@ -42,7 +42,8 @@ const SideNav = () => {
         <div className="year">
           <p>2024</p>
           <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank" rel="noreferrer">Template</a> <br />
-          <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a>
+          <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a> <br />
+          <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL">Hamburger menu</a>
         </div>
       </div>
     </div>
