@@ -4,13 +4,26 @@ import "./Wrapper.css"
 
 // KONKRETNE CSS
 import "./MixesContent.css"
+import "./OneMix.css"
 
 //KOMPONENTY
 import OneMix from "./OneMix"
 
 
+// IMPORT DAT O MIXOCH
+import "../list"
+
+// IMPORT OBRAZKOV
+
+
+
+
+
 
 const MixesContent = () => {
+
+
+  
 
   const list = [
     {
@@ -431,13 +444,35 @@ const MixesContent = () => {
     // },
 ];
 
+
+
+
   
 
   return <div className="mixesContent content">
       <div className="wrapper">
         <h1>Mixes</h1>
        <div className="allMixes">
-        <OneMix mixImage={list[0].cover} mixTitle={list[0].title} mixUrl={list[0].url}/>
+          {/* <OneMix mixImage={list[0].cover} mixTitle={list[0].title} mixUrl={list[0].url} mixAuthor={list[0].author}/> */}
+          {
+            list.map((oneMixFromList) => {
+              return <div className="oneMix">
+              <div className="mixesInfo">
+                      <img src={oneMixFromList.cover} alt="" />
+                      <h2>{oneMixFromList.title}</h2>
+                      {/* <h3>Mixed by {oneMixFromList.author}</h3> */}
+              </div>
+          
+              
+                
+                <div className="mixesLinks">
+                  <a href={oneMixFromList.url} target="_blank">Download</a>
+                  <a href={oneMixFromList.youtube} target="_blank">YouTube</a>
+                  <a href={oneMixFromList.housemixes} target="_blank">HouseMixes</a>
+                </div>
+              </div>
+            })
+          }
        </div>
       </div>
     </div>

@@ -1,23 +1,58 @@
 .oneMix{
-    color: white;
+    
+    color: #cfcfcf;
     width: 100%;
-    height: 150px;
-    border: 1px white solid;
-    margin-bottom: 15px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.50); /* 75% priehľadná čierna */
+    margin-bottom: 5px;
     border-bottom-right-radius: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 25px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 .oneMix img{
-    width: 130px;
-    height: 130px;
+    width: 50px;
+    height: 50px;
 }
 
-.oneMix h3, h2{
+
+.oneMix h2{
     padding: 10px;
 }
 
+.oneMix h3{
+    padding: 20px;
+}
+
+
+.mixesLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mixesLinks a{
+    background-color: rgba(0, 0, 255, 0.40); 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.mixesInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
