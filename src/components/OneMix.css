@@ -1,0 +1,23 @@
+.oneMix{
+    color: white;
+    width: 100%;
+    height: 150px;
+    border: 1px white solid;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+}
+
+.oneMix img{
+    width: 130px;
+    height: 130px;
+}
+
+.oneMix h3, h2{
+    padding: 10px;
+}
+

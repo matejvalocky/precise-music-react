@@ -1,18 +1,4 @@
-// OBECNE CSS
-import "./Content.css"
-import "./Wrapper.css"
-
-// KONKRETNE CSS
-import "./MixesContent.css"
-
-//KOMPONENTY
-import OneMix from "./OneMix"
-
-
-
-const MixesContent = () => {
-
-  const list = [
+const list = [
     {
       // url: "./download/mp3/Drum-and-Bass-2023-Mix-no5-by-Precise-Music-(mp3-192).mp3",
       url: "https://drive.google.com/file/d/1M7zzTv0HZDMheP66Xlg0_NXim7SqqXa9/view?usp=drive_link",
@@ -430,18 +416,3 @@ const MixesContent = () => {
     //   housemixes: ""
     // },
 ];
-
-  
-
-  return <div className="mixesContent content">
-      <div className="wrapper">
-        <h1>Mixes</h1>
-       <div className="allMixes">
-        <OneMix mixImage={list[0].cover} mixTitle={list[0].title} mixUrl={list[0].url}/>
-       </div>
-      </div>
-    </div>
-  
-}
-
-export default MixesContent
