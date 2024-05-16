@@ -10,7 +10,20 @@ import "./OneMix.css"
 
 
 
-import image  from "../../src/images/covers/april-2021.jpg"
+// import image  from "../../src/images/covers/april-2021.jpg"
+
+import youtubeIcon from "../../src/mixIcons/youtube.png"
+import housemixesIcon from "../../src/mixIcons/house-mixes.jpg"
+import downloadIcon from "../../src/mixIcons/download.png"
+
+
+
+
+
+
+
+
+
 
 
 
@@ -23,15 +36,13 @@ import image  from "../../src/images/covers/april-2021.jpg"
 const MixesContent = () => {
 
 
-  
-
   const list = [
     {
       // url: "./download/mp3/Drum-and-Bass-2023-Mix-no5-by-Precise-Music-(mp3-192).mp3",
       url: "https://drive.google.com/file/d/1M7zzTv0HZDMheP66Xlg0_NXim7SqqXa9/view?usp=drive_link",
       author: "Precise Music",
       title: "Drum and Bass 2023 Mix #5",
-      tracks: " 001 | Grafix & Flowidus - Submarine<br>002 | Delta Heavy - No Gravity<br>003 | Jack Mirror - With You (ft. flowanastasia)<br>004 | Kanine - Lost and Found<br>005 | Metrik - Abyss<br>006 | ShockOne - Ready To Go (ft. Bright Sparks)<br>007 | Freaks & Geeks - Function<br>008 | Mandidextrous & Tanukichi - Higher<br>009 | MK & Dom Dolla - Rhyme Dust (Dimension Remix)<br>010 | Fred V - Faded Blue (ft. Hybrid Minds & Lottie Jones)<br>011 | Mountain - Pegasus<br>012 | David Guetta, Becky Hill & Ella Henderson - Crazy What Love Can Do (Grafix Remix)<br>013 | C:rcle - Oscillate (ft. Gid Sedgwick)<br>014 | Alesso & John Newman - Call Your Name (Andromedik Remix)<br>015 | Andromedik - To The Dark (ft. MC Stretch)<br>016 | Dimension - DJ Turn It Up<br>017 | Dimension - Generator<br>018 | Dimension - Offender<br>019 | Kanine - Get Down<br>020 | Lee Mvtthews - Dice (ft. Rachel Leo)<br>021 | Metrik x ÆON:MODE - Awake<br>022 | S.P.Y - Complicated <br>023 | SIREN - Dark Nights (ft. Stuart Rowe)<br>024 | Solomon France - Sweet Kicks<br>025 | Supercurve - Frequency<br>026 | Tall Order - Underground<br>027 | Tantrum Desire - Bring It<br>028 | Technimatic - Sunburst<br>029 | Kove - So Much Love<br>030 | Natty Lou - Alpenglow (ft. Lottie Jones)<br>031 | Culture Shock - Alone (ft. Gracie Van Brunt)<br>032 | Junk Mail & Bugwell - Stronger<br>033 | Justin Hawkes - Heartleap<br>034 | Matrix & Futurebound & Synth System - Return To You (ft. Anna Simone)<br>035 | Metrik - Immortal<br>036 | Netsky & Hybrid Minds - Let Me Hold You<br>037 | Delta Heavy - Get Down Tonight (ft. Hayley May)<br>038 | Freaks & Geeks - Oxygen<br>039 | REAPER & Calivania - BLACK FIRES<br>040 | High Contrast - Can't Give You Up<br>041 | 1991 - Eternity (ft. Henry Dell)<br>042 | Ekko & Sidetrack - The Light (ft. Ruth Royall)<br>043 | Futurebound - Fall (ft. Dolly Rae)<br>044 | Krakota - Wanna Be Loved<br>045 | Metrik - We Are The Energy<br>046 | Sub Focus & Dimension - Ready To Fly<br>047 | Synergy - White Line<br>048 | Tisoki & Oliverse - Dream About You<br>049 | LOWES - Game of Love (Friction Remix)<br>050 | ShockOne - Heart On Fire (ft. Pauline Herr)<br>051 | Andromedik - With You<br>052 | Flowidus - Save Us (ft. Lauren L'aimant)<br>053 | Kings Of The Rollers - So Lost<br>054 | REPAIR - Obsessed<br>055 | Synergy - Freedom (ft. What So Not)<br>056 | D.O.D - So Much In Love (Sub Focus Remix)<br>057 | Lexurus - The Funk<br>058 | Lost Frequencies - The Feeling (Lost Frequencies & Andromedik Deluxe Mix)<br>059 | Bensley & Justin Hawkes - Don’t Be Scared<br>060 | Deep Notion - I Begged You<br>061 | Justin Hawkes - Better Than Gold (ft. Andrew Hellier) <br>062 | Delta Heavy x Jem Cooke - Heaven<br>063 | Friction & Poppy Baskcomb - The Answer<br>064 | Metrik - Fall To The Dust<br>065 | Wilkinson - Infinity (ft. ILIRA, iiola & Tom Cane)<br>",
+      tracks: "001 | Grafix & Flowidus - Submarine<br>002 | Delta Heavy - No Gravity<br>003 | Jack Mirror - With You (ft. flowanastasia)<br>004 | Kanine - Lost and Found<br>005 | Metrik - Abyss<br>006 | ShockOne - Ready To Go (ft. Bright Sparks)<br>007 | Freaks & Geeks - Function<br>008 | Mandidextrous & Tanukichi - Higher<br>009 | MK & Dom Dolla - Rhyme Dust (Dimension Remix)<br>010 | Fred V - Faded Blue (ft. Hybrid Minds & Lottie Jones)<br>011 | Mountain - Pegasus<br>012 | David Guetta, Becky Hill & Ella Henderson - Crazy What Love Can Do (Grafix Remix)<br>013 | C:rcle - Oscillate (ft. Gid Sedgwick)<br>014 | Alesso & John Newman - Call Your Name (Andromedik Remix)<br>015 | Andromedik - To The Dark (ft. MC Stretch)<br>016 | Dimension - DJ Turn It Up<br>017 | Dimension - Generator<br>018 | Dimension - Offender<br>019 | Kanine - Get Down<br>020 | Lee Mvtthews - Dice (ft. Rachel Leo)<br>021 | Metrik x ÆON:MODE - Awake<br>022 | S.P.Y - Complicated <br>023 | SIREN - Dark Nights (ft. Stuart Rowe)<br>024 | Solomon France - Sweet Kicks<br>025 | Supercurve - Frequency<br>026 | Tall Order - Underground<br>027 | Tantrum Desire - Bring It<br>028 | Technimatic - Sunburst<br>029 | Kove - So Much Love<br>030 | Natty Lou - Alpenglow (ft. Lottie Jones)<br>031 | Culture Shock - Alone (ft. Gracie Van Brunt)<br>032 | Junk Mail & Bugwell - Stronger<br>033 | Justin Hawkes - Heartleap<br>034 | Matrix & Futurebound & Synth System - Return To You (ft. Anna Simone)<br>035 | Metrik - Immortal<br>036 | Netsky & Hybrid Minds - Let Me Hold You<br>037 | Delta Heavy - Get Down Tonight (ft. Hayley May)<br>038 | Freaks & Geeks - Oxygen<br>039 | REAPER & Calivania - BLACK FIRES<br>040 | High Contrast - Can't Give You Up<br>041 | 1991 - Eternity (ft. Henry Dell)<br>042 | Ekko & Sidetrack - The Light (ft. Ruth Royall)<br>043 | Futurebound - Fall (ft. Dolly Rae)<br>044 | Krakota - Wanna Be Loved<br>045 | Metrik - We Are The Energy<br>046 | Sub Focus & Dimension - Ready To Fly<br>047 | Synergy - White Line<br>048 | Tisoki & Oliverse - Dream About You<br>049 | LOWES - Game of Love (Friction Remix)<br>050 | ShockOne - Heart On Fire (ft. Pauline Herr)<br>051 | Andromedik - With You<br>052 | Flowidus - Save Us (ft. Lauren L'aimant)<br>053 | Kings Of The Rollers - So Lost<br>054 | REPAIR - Obsessed<br>055 | Synergy - Freedom (ft. What So Not)<br>056 | D.O.D - So Much In Love (Sub Focus Remix)<br>057 | Lexurus - The Funk<br>058 | Lost Frequencies - The Feeling (Lost Frequencies & Andromedik Deluxe Mix)<br>059 | Bensley & Justin Hawkes - Don’t Be Scared<br>060 | Deep Notion - I Begged You<br>061 | Justin Hawkes - Better Than Gold (ft. Andrew Hellier) <br>062 | Delta Heavy x Jem Cooke - Heaven<br>063 | Friction & Poppy Baskcomb - The Answer<br>064 | Metrik - Fall To The Dust<br>065 | Wilkinson - Infinity (ft. ILIRA, iiola & Tom Cane)<br>",
       cover: "./images/covers/no5-mix-2023.jpg",
       youtube: "https://youtu.be/zeu43OWK1jc",
       spotify: "", 
@@ -451,23 +462,20 @@ const MixesContent = () => {
 
   return <div className="mixesContent content">
       <div className="wrapper">
-        <h1>Mixes</h1>
+        <h1>Drum and Bass Mixes</h1>
        <div className="allMixes">
          
           {
             list.map((oneMixFromList) => {
               return <div className="oneMix">
               <div className="mixesInfo">
-                      <img src={oneMixFromList.cover} alt="" />
+                      <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
                       <h2>{oneMixFromList.title}</h2>
               </div>
-          
-              
-                
                 <div className="mixesLinks">
-                  <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer">YouTube</a>
-                  <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer">HouseMixes</a>
-                  <a href={oneMixFromList.url} target="_blank" rel="noreferrer">Download</a>
+                  <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
+                  <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt="" /></a>
+                  <a href={oneMixFromList.url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a>
                 </div>
               </div>
             })
