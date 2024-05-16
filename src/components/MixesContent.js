@@ -10,8 +10,10 @@ import "./OneMix.css"
 
 
 
+import image  from "../../src/images/covers/april-2021.jpg"
 
-// IMPORT OBRAZKOV
+
+
 
 
 
@@ -458,15 +460,14 @@ const MixesContent = () => {
               <div className="mixesInfo">
                       <img src={oneMixFromList.cover} alt="" />
                       <h2>{oneMixFromList.title}</h2>
-                     
               </div>
           
               
                 
                 <div className="mixesLinks">
-                  <a href={oneMixFromList.url} target="_blank" rel="noreferrer">Download</a>
                   <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer">YouTube</a>
                   <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer">HouseMixes</a>
+                  <a href={oneMixFromList.url} target="_blank" rel="noreferrer">Download</a>
                 </div>
               </div>
             })

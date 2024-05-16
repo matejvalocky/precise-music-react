@@ -1,7 +1,7 @@
 import "./OneMix.css"
 
 
-const OneMix = (props) => {
+const OneMix = () => {
 
 
 
