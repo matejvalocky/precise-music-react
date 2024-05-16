@@ -18,16 +18,17 @@
     
 }
 
-.oneMix img{
+.oneMixCover{
     width: 60px;
     height: 60px;
-}
-
-.oneMixCover{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     margin-right: 5px;
     margin-left: 5px;
-    /* background-color: red; */
 }
+
+
 
 
 .oneMix h2{
