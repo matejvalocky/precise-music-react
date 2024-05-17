@@ -172,7 +172,7 @@ const MixesContent = () => {
       url: "https://drive.google.com/file/d/1xAaQbMfw0YrNDNKnjx1MhYIXyXUIZU7s/view?usp=drive_link",
       author: "Precise Music",
       title: "Drum and Bass June Mix 2022",
-      cover: require("./images/covers/june-2022.jpg") ,
+      cover: require("./images/covers/june-2022.jpg"),
       tracks: "TRACKLIST SOON",
       youtube: "https://youtu.be/lMQyJQ8uUks?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
       spotify: "https://open.spotify.com/playlist/5jINvKju5GptlMuJedV7zV",

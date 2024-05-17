@@ -31,11 +31,13 @@
 
 
 
+
+
 .oneMix h2{
     font-size: 20px;
     padding: 10px;
     width: 300px;
-    /* background-color: green; */
+    text-transform: uppercase;
 }
 
 .oneMix h3{
