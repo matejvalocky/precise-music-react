@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Mixes from "./pages/Mixes"
-import Links from "./pages/Links"
+import Home from "./pages/Home-page"
+import About from "./pages/About-page"
+import Mixes from "./pages/Mixes-page"
+import Links from "./pages/Links-page"
 
 
 const App = () => {

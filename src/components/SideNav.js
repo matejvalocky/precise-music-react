@@ -1,4 +1,6 @@
 import "./SideNav.css";
+import "./SideNavQueries.css"
+
 import { Link } from "react-router-dom"
 
 const SideNav = () => {

@@ -1,4 +1,5 @@
 import "./OneMix.css"
+import "../../src/components/OneMixQueries.css"
 
 
 const OneMix = () => {

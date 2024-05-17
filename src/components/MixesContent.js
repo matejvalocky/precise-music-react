@@ -1,6 +1,7 @@
 // OBECNE CSS
 import "./Content.css"
 import "./Wrapper.css"
+import "./WrapperQueries.css"
 
 // KONKRETNE CSS
 import "./MixesContent.css"
