@@ -11,6 +11,7 @@
 
    @media only screen and (max-width: 560px){
     .oneMix{
+        margin: 2px 5px;
         width: 95%;
         height: 50px;
         padding: 0px;
@@ -36,3 +37,14 @@
    }
 
 
+   @media only screen and (max-width: 450px){
+    .mixesInfo{
+       
+        width: 250px;
+
+    }
+
+    .oneMix h2{
+        font-size: 12px;
+    }
+   }
