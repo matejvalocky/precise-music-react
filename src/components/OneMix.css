@@ -1,5 +1,4 @@
 .oneMix{
-    
     color: #cfcfcf;
     border: 1px rgb(122, 122, 122) solid;
     width: 500px;
@@ -15,7 +14,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 5px 10px;
-    
 }
 
 .oneMixCover{

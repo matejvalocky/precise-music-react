@@ -6,6 +6,7 @@ import "./WrapperQueries.css"
 // KONKRETNE CSS
 import "./MixesContent.css"
 import "./OneMix.css"
+import "./OneMixQueries.css"
 
 
 

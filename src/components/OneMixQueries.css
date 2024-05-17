@@ -9,6 +9,30 @@
    /************************************************************/
 
 
-   
+   @media only screen and (max-width: 560px){
+    .oneMix{
+        width: 95%;
+        height: 50px;
+        padding: 0px;
+    }
+
+
+    .oneMixCover{
+        width: 40px;
+        height: 40px;
+    }
+
+    .mixesInfo{
+       
+        width: 300px;
+
+    }
+
+    .oneMix h2{
+        font-size: 15px;
+    }
+
+
+   }
 
 
