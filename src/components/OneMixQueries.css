@@ -47,4 +47,10 @@
     .oneMix h2{
         font-size: 12px;
     }
+
+    .mixesLinks a img{
+        width: 20px;
+        height: 20px;
+       
+    }
    }
