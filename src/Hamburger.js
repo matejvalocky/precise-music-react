@@ -1,6 +1,8 @@
 import "./Hamburger.css"
 import "./components/HamburgerQueries.css"
 
+import { Link } from "react-router-dom"
+
 import logoImage from "./LOGO-240.png"
 
 
@@ -21,11 +23,12 @@ const Hamburger = () => {
            <img src={logoImage} alt="" />
           </div>
           <div class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blogs</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
+            <li> <Link to="/" className="menuLink"><div className="homeIcon icon"></div><p>Home</p></Link></li>
+            <li> <Link to="/about" className="menuLink"><div className="aboutIcon icon"></div><p>About</p></Link></li>
+            <li> <Link to="/mixes" className="menuLink"><div className="musicIcon icon"></div><p>Mixes</p> </Link></li>
+            <li> <Link to="/links" className="menuLink"><div className="linksIconNav icon"></div> <p>Links</p></Link></li>
+
+            {/* <li><a href="#">contact</a></li> */}
           </div>
         </div>
       </div>
