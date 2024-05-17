@@ -19,7 +19,7 @@ import downloadIcon from "../../src/mixIcons/download.png"
 
 
 
-import no5Mix2023 from "./images/covers/no5-mix-2023.jpg"
+
 
 
 
