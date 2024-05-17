@@ -4,6 +4,7 @@ import "./Wrapper.css"
 
 //KONKRETNE CSS
 import "./AboutContent.css"
+import "./AboutContentQueries.css"
 
 const AboutContent = () => {
   return (

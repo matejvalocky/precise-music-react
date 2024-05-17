@@ -1,0 +1,93 @@
+@media only screen and (max-width: 990px){
+    /* udalosti pod 990 pixelov šírky */
+   }
+
+@media only screen and (min-width: 990px){
+    /* udalosti nad 990 pixelov šírky */
+   }
+
+   /************************************************************/
+
+
+   @media only screen and (max-width: 1500px){
+    .languageWrapper{
+        background-color: black;
+        opacity: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        z-index: -100;
+       
+    }
+
+    .aboutWrapper{
+        padding: 20px 0;
+        margin: 0 20px;
+        color: white;
+        width: 500px;
+        text-align: justify;
+       
+    }
+    
+    .aboutWrapper h2{
+        
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .aboutWrapper p{
+        margin: 25px 0;;
+    }
+   }
+
+
+
+   @media only screen and (max-width: 1330px){
+    .languageWrapper{
+        background-color: black;
+        opacity: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: -100;
+       
+    }
+
+    .aboutWrapper{
+        padding: 20px 0;
+        margin: 0 20px;
+        color: white;
+        width: 95%;
+        text-align: justify;
+       
+    }
+    
+    .aboutWrapper h2{
+        
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .aboutWrapper p{
+        font-size: 18px;
+        margin: 15px 0;;
+    }
+   }
+
+
+   @media only screen and (max-width: 1140px){
+    .aboutWrapper p{
+        font-size: 15px;
+        margin: 15px 0;;
+    }
+   }
+
+   @media only screen and (max-width: 500px){
+    .aboutWrapper p{
+        padding: 0 10px;
+        font-size: 13px;
+        margin: 15px 0;;
+    }
+   }
