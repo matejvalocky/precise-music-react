@@ -90,4 +90,10 @@
         font-size: 13px;
         margin: 15px 0;;
     }
+
+    .aboutWrapper h2{
+        padding: 0 10px;
+        color: white;
+        text-decoration: underline;
+    }
    }
