@@ -4,6 +4,7 @@
   max-width: 1050px;
   width: 90%;
   margin: auto;
+  z-index: 100;
 }
 
 .navbar {
