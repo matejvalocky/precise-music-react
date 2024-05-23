@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const SideNav = () => {
   return (
-    <div className="sideNavigation">
+    <aside className="sideNavigation">
       <div className="logoAndNav">
         <div className="logoImage">
           <div className="opacityBlock">
@@ -48,7 +48,7 @@ const SideNav = () => {
           <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL">Hamburger menu</a>
         </div>
       </div>
-    </div>
+    </aside>
   );
 };
 
