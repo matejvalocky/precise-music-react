@@ -1,20 +1,12 @@
-import SideNav from "../components/SideNav"
+import { Link, Outlet } from "react-router-dom"
+
 import LinksContent from "../components/LinksContent"
-import Hamburger from "../Hamburger"
+
+
 
 
 const Links = () => {
-  return <div className="app">
-
-  <div className="hamburger-top">
-    <Hamburger />
-  </div>
-
-  <div className="siteContent">
-    <SideNav></SideNav>
-    <LinksContent></LinksContent>
-  </div>
-</div>
+  return <LinksContent></LinksContent>
 }
 
 export default Links
