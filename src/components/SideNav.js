@@ -1,7 +1,8 @@
 import "./SideNav.css";
 import "./SideNavQueries.css"
 
-import { Link } from "react-router-dom"
+
+import { NavLink } from "react-router-dom";
 
 const SideNav = () => {
   return (
@@ -15,16 +16,16 @@ const SideNav = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/" className="menuLink"><div className="homeIcon icon"></div><p>Home</p></Link>
+              <NavLink to="/" className="menuLink"><div className="homeIcon icon"></div><p>Home</p></NavLink>
             </li>
             <li>
-              <Link to="/about" className="menuLink"><div className="aboutIcon icon"></div><p>About</p></Link>
+              <NavLink to="/about" className="menuLink"><div className="aboutIcon icon"></div><p>About</p></NavLink>
             </li>
             <li>
-              <Link to="/mixes" className="menuLink"><div className="musicIcon icon"></div><p>Mixes</p> </Link>
+              <NavLink to="/mixes" className="menuLink"><div className="musicIcon icon"></div><p>Mixes</p> </NavLink>
             </li>
             <li>
-              <Link to="/links" className="menuLink"><div className="linksIconNav icon"></div> <p>Links</p></Link>
+              <NavLink to="/links" className="menuLink"><div className="linksIconNav icon"></div> <p>Links</p></NavLink>
             </li>
           </ul>
         </nav>
