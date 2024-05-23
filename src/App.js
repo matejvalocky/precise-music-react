@@ -5,6 +5,7 @@ import Mixes from "./pages/Mixes-page";
 import Links from "./pages/Links-page";
 import Error from "./pages/Error-page";
 import SharedLayout from "./pages/SharedLayout";
+import OneMix from "./components/OneMix";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/about" element={<About />}></Route>
           <Route path="/mixes" element={<Mixes />}></Route>
           <Route path="/links" element={<Links />}></Route>
+          <Route path="/all-mixes/:mixId" element={<OneMix/>}></Route>
           <Route path="*" element={<Error />}></Route>
         </Route>
       </Routes>
