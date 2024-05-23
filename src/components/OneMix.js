@@ -1,15 +1,17 @@
 import "./OneMix.css"
 import "../../src/components/OneMixQueries.css"
-
+import { useParams } from "react-router-dom"
 
 const OneMix = () => {
+console.log(useParams());
 
+const {movieId} = useParams()
 
 
 
   return (
     <div className="oneMix">
-      <h2>Jeden mix</h2>
+      <h2>{movieId}</h2>
     </div>
   )
 }
