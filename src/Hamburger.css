@@ -151,3 +151,10 @@
 .nav-container input[type="checkbox"]:checked ~ .logo{
   z-index: 100;
 }
+
+
+
+
+.menuLinkHamburger{
+  width: 150px;
+}

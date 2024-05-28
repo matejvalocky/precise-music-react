@@ -23,10 +23,10 @@ const Hamburger = () => {
            <img src={logoImage} alt="" />
           </div>
           <div className="menu-items">
-            <li> <Link to="/" className="menuLink"><div className="homeIcon icon"></div><p>Home</p></Link></li>
-            <li> <Link to="/about" className="menuLink"><div className="aboutIcon icon"></div><p>About</p></Link></li>
-            <li> <Link to="/mixes" className="menuLink"><div className="musicIcon icon"></div><p>Mixes</p> </Link></li>
-            <li> <Link to="/links" className="menuLink"><div className="linksIconNav icon"></div> <p>Links</p></Link></li>
+            <li> <Link to="/" className="menuLink menuLinkHamburger"><div className="homeIcon icon hamburgerIcon"></div><p>Home</p></Link></li>
+            <li> <Link to="/about" className="menuLink menuLinkHamburger"><div className="aboutIcon icon hamburgerIcon"></div><p>About</p></Link></li>
+            <li> <Link to="/mixes" className="menuLink menuLinkHamburger"><div className="musicIcon icon hamburgerIcon"></div><p>Mixes</p> </Link></li>
+            <li> <Link to="/links" className="menuLink menuLinkHamburger"><div className="linksIconNav icon hamburgerIcon"></div> <p>Links</p></Link></li>
 
             {/* <li><a href="#">contact</a></li> */}
           </div>
