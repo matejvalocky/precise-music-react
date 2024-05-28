@@ -21,6 +21,7 @@ import downloadIcon from "../../src/mixIcons/download.png"
 
 import list from "../components/list"
 
+import { Link } from "react-router-dom"
 
 
 
@@ -52,10 +53,13 @@ const MixesContent = () => {
          
           {
             list.map((oneMixFromList) => {
-              return <div className="oneMix">
+              return <div className="oneMix" key={oneMixFromList.id}>
               <div className="mixesInfo">
                       <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
                       <h2>{oneMixFromList.title}</h2>
+        
+                      <Link to={`/all-movies/${oneMixFromList.id}`}><h5>info</h5></Link>
+
               </div>
                 <div className="mixesLinks">
                   <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
