@@ -34,7 +34,7 @@ const OneMovie = () => {
 
   return <div className="content oneMovieBG">
   <div className="wrapper">
-        <section>
+    <section>
     {/* <h2>Jeden mix</h2>
     <h2>{movieId}</h2> */}
     <h1>{title}</h1>
