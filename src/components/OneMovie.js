@@ -8,6 +8,9 @@ import downloadIcon from "../../src/mixIcons/download.png"
 import backIcon from "../../src/mixIcons/back.png"
 
 
+import "../../src/oneMovieQueries.css"
+
+
 // OBECNE CSS
 import "./Content.css"
 import "./Wrapper.css"
