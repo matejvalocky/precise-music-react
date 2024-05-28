@@ -8,8 +8,8 @@ const MainContent = () => {
   return (
     <div className="mainContent content">
       
-        {/* <h1>Precise <br /> Music</h1> */}
-        <a href="https://youtu.be/I7Bq73aTvDE?list=PLQ8x_VWW6AkvURLFWrOZy1e8cZuyx_xN8">Pokračuj</a>
+        <h1>Precise <br /> Music</h1>
+        
       
     </div>
   );

@@ -57,18 +57,17 @@ const MixesContent = () => {
 
               
               <div className="mixesInfo">
-                      <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
+                      <Link to={`/all-movies/${oneMixFromList.id}`}>
+                        <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
+                      </Link>
                       <h2>{oneMixFromList.title}</h2>
-        
-                     
-
               </div>
-                <div className="mixesLinks">
+              <div className="mixesLinks">
                   <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
                   <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt="" /></a>
                   <a href={oneMixFromList.url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a>
-                  <Link to={`/all-movies/${oneMixFromList.id}`}><h5>info</h5></Link>
-                </div>
+                  
+              </div>
 
                  
               </div>

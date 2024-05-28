@@ -2,6 +2,17 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import list from "../components/list"
 
+import youtubeIcon from "../../src/mixIcons/youtube.png"
+import housemixesIcon from "../../src/mixIcons/house-mixes.jpg"
+import downloadIcon from "../../src/mixIcons/download.png"
+import backIcon from "../../src/mixIcons/back.png"
+
+
+// OBECNE CSS
+import "./Content.css"
+import "./Wrapper.css"
+import "./WrapperQueries.css"
+
 import "./OneMovie.css"
 
 
@@ -18,7 +29,9 @@ const OneMovie = () => {
 
     const {url, title, cover, tracks, author, youtube, housemixes} = oneSpecificMovie
 
-  return <section>
+  return <div className="content oneMovieBG">
+  <div className="wrapper">
+        <section>
     {/* <h2>Jeden mix</h2>
     <h2>{movieId}</h2> */}
     <h1>{title}</h1>
@@ -26,11 +39,18 @@ const OneMovie = () => {
     <img src={cover} alt="" />
     <p>{tracks}</p>
 
-    <a href={housemixes} target="_blank">House-Mixes</a> <br />
-    <a href={youtube} target="_blank">YouTube</a> <br />
-    <a href={url} target="_blank">Download</a> <br />
-    <Link to="/mixes"><h3>Return to list of all mixes</h3></Link>
+    <div className="iconsUnderOneMix">
+        <a href={housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt=""  /></a> <br />
+        <a href={youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a> <br />
+        <a href={url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a> <br /> 
+
+    </div>
+    
+    <Link to="/mixes"><img src={backIcon} alt="" /></Link>
   </section>
+  </div>
+
+  </div> 
 }
 
 export default OneMovie
