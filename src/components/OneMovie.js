@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import list from "../components/list"
 
+import "./OneMovie.css"
+
 
 
 
@@ -20,12 +22,14 @@ const OneMovie = () => {
     {/* <h2>Jeden mix</h2>
     <h2>{movieId}</h2> */}
     <h1>{title}</h1>
-    <a href={url}>Download</a> <br />
-    <a href={youtube}>YouTube</a> <br />
-    <a href={housemixes}>House-Mixes</a> <br />
+    <p>mixed by <h3>{author}</h3></p>
     <img src={cover} alt="" />
     <p>{tracks}</p>
-    <Link to="/mixes">Späť na zoznam mixov</Link>
+
+    <a href={housemixes} target="_blank">House-Mixes</a> <br />
+    <a href={youtube} target="_blank">YouTube</a> <br />
+    <a href={url} target="_blank">Download</a> <br />
+    <Link to="/mixes"><h3>Return to list of all mixes</h3></Link>
   </section>
 }
 
