@@ -1,12 +1,23 @@
 const list = [
       {
+        id:  37,
+        url:"https://drive.google.com/file/d/1bazU-8WxkRUJquzMYGbnrAymMBokDMTG/view?usp=drive_link",
+        author: "Precise Music",
+        title: "Drum and Bass 2024 Mix #2",
+        cover: require("./images/covers/2024-02-mix.jpg") ,
+        tracks: "TRACKLIST SOON",
+        youtube: "https://youtu.be/fzzQqNnhUK4",
+        spotify: "",
+        housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-2"
+      },
+      {
       id: 36,
       url:  "https://drive.google.com/file/d/1G08h8XxCzP3qEW6vrxxvcUhezGmQvGQ3/view?usp=drive_link",
       author: "Precise Music",
       title: "Drum and Bass 2024 Mix #1",
       cover: require("./images/covers/2024-01-mix.jpg") ,
       tracks: "TRACKLIST SOON",
-      youtube: "https://www.youtube.com/watch?v=4nNMnUaYciw&t=260s",
+      youtube: "https://www.youtube.com/watch?v=4nNMnUaYciw&t=0s",
       spotify: "",
       housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-1-by-precise-music"
     },
