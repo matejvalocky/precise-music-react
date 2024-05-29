@@ -1,4 +1,15 @@
 const list = [
+      {
+      id: 36,
+      url:  "https://drive.google.com/file/d/1G08h8XxCzP3qEW6vrxxvcUhezGmQvGQ3/view?usp=drive_link",
+      author: "Precise Music",
+      title: "Drum and Bass 2024 Mix #1",
+      cover: require("./images/covers/2024-01-mix.jpg") ,
+      tracks: "TRACKLIST SOON",
+      youtube: "https://www.youtube.com/watch?v=4nNMnUaYciw&t=260s",
+      spotify: "",
+      housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-1-by-precise-music"
+    },
     {
       id: 35,
       // url: "./download/mp3/Drum-and-Bass-2023-Mix-no5-by-Precise-Music-(mp3-192).mp3",
@@ -421,9 +432,10 @@ const list = [
       housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-january-mix-2021-mixed-by-preci"
     },
     // {
-    //   url:"./download/mp3/DRUM-AND-BASS-XXXXXXXX-MIX-2020-MIXED-BY-PRECISE-MUSIC.mp3",
+    //   id: ,
+    //   url:"",
     //   author: "Precise Music",
-    //   title: "Drum and Bass xxxxxxx Mix 2020",
+    //   title: "Drum and Bass xxxxxxx Mix 2024",
     //   cover: require("./images/covers/xxxxxxxx.jpg") ,
     //   tracks: "TRACKLIST SOON",
     //   youtube: "",
