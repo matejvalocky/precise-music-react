@@ -8,7 +8,7 @@ import downloadIcon from "../../src/mixIcons/download.png"
 import backIcon from "../../src/mixIcons/back.png"
 
 
-import "../../src/oneMovieQueries.css"
+import "./oneMovieQueries.css"
 
 
 // OBECNE CSS
@@ -30,7 +30,7 @@ const OneMovie = () => {
         return oneMovie.id === parseInt(movieId) // prevod textu na číslo = parseInt
     }) 
 
-    const {url, title, cover, tracks, author, youtube, housemixes} = oneSpecificMovie
+    const {url, title, cover, tracks, youtube, housemixes} = oneSpecificMovie
 
   return <div className="content oneMovieBG">
   <div className="wrapper">
