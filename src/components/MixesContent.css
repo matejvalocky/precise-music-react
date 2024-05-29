@@ -11,7 +11,13 @@
     flex-wrap: wrap;
 }
 
+.mixesInfo h2{
+    color: rgb(219, 219, 219);
+}
 
 
 
-  
+
+  .noUnderline{
+      text-decoration: none;
+  }

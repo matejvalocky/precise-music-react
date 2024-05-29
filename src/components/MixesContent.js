@@ -60,7 +60,10 @@ const MixesContent = () => {
                       <Link to={`/all-movies/${oneMixFromList.id}`}>
                         <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
                       </Link>
-                      <h2>{oneMixFromList.title}</h2>
+                      <Link to={`/all-movies/${oneMixFromList.id}`} className="noUnderline">
+                         <h2>{oneMixFromList.title}</h2>
+                      </Link>
+                     
               </div>
               <div className="mixesLinks">
                   <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
