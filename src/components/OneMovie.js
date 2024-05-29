@@ -50,11 +50,12 @@ const OneMovie = () => {
           <a href={housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt=""  /></a> <br />
           <a href={youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a> <br />
           <a href={url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a> <br /> 
+          <Link to="/mixes"><img className="backImage" src={backIcon} alt="" /></Link>
       </div>
     </div>
 
     
-    <Link to="/mixes"><img src={backIcon} alt="" /></Link>
+    
   </section>
   </div>
 

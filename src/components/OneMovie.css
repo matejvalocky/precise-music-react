@@ -28,7 +28,7 @@ section p{
 section a img{
     width: 50px;
     height: 50px;
-    margin: 15px;
+    margin: 5px;
 }
 
 
@@ -41,26 +41,27 @@ section a img{
 
 .iconsUnderOneMix{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    background-color: aqua;
+    
    
     
 }
 
 .iconsUnderOneMix a img{
-    width: 75px;
-    height: 75px;
-    margin: 0;
-    padding: 0;
-
+    max-width: 40px;
+    max-height: 40px;
+    width: 5vw;
+    height: 5vw;
 }
 
 .tracklist{
     line-height: 0.95vw;
-    font-size: 15px;
     font-size: 0.75vw;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
     
 }
 
@@ -71,7 +72,7 @@ section a img{
     justify-content: flex-start;
     align-items: center;
     border-bottom: 0.5px grey solid;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .coverTitle h1{
@@ -84,9 +85,9 @@ section a img{
 }
 
 .tracks_icons{
-    background-color: blue;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
 }
