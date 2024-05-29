@@ -37,17 +37,22 @@ const OneMovie = () => {
     <section>
     {/* <h2>Jeden mix</h2>
     <h2>{movieId}</h2> */}
-    <h1>{title}</h1>
-    <p>mixed by <h3>{author}</h3></p>
-    <img src={cover} alt="" />
-    <p>{tracks}</p>
-
-    <div className="iconsUnderOneMix">
-        <a href={housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt=""  /></a> <br />
-        <a href={youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a> <br />
-        <a href={url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a> <br /> 
-
+    <div className="coverTitle">
+        <img src={cover} alt="" />
+        <h1>{title}</h1>
     </div>
+    
+    {/* <p>mixed by <h3>{author}</h3></p> */}
+    <div className="tracks_icons">
+      <p className="tracklist" dangerouslySetInnerHTML={{ __html: tracks }} />
+
+      <div className="iconsUnderOneMix">
+          <a href={housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt=""  /></a> <br />
+          <a href={youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a> <br />
+          <a href={url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a> <br /> 
+      </div>
+    </div>
+
     
     <Link to="/mixes"><img src={backIcon} alt="" /></Link>
   </section>
