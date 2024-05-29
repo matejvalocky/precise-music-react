@@ -18,10 +18,22 @@
    @media only screen and (max-width: 560px){
     .oneMix{
         margin: 2px 5px;
-        width: 95%;
+        width: 100%;
         height: 50px;
-        padding: 0px;
+        padding: 0;
     }
+
+    .mixesLinks a:nth-child(1){
+        display: none;
+   }
+
+   .mixesLinks a:nth-child(2){
+    display: none;
+}
+
+.mixesLinks a:nth-child(3){
+    display: none;
+}
 
 
     .oneMixCover{
@@ -64,9 +76,16 @@
 
 
    @media only screen and (max-width: 382px){
-    .mixesLinks a:nth-child(2){
-        display: none;
-   }
+ 
+    .oneMixCover{
+        width: 30px;
+        height: 30px;
+    }
 
+    .oneMix{
+        
+        height: 40px;
+        
+    }
    
 }
