@@ -1,9 +1,8 @@
 
 
 .container {
-  max-width: 1050px;
-  width: 90%;
-  margin: auto;
+  max-width: 100%;
+  margin: 0 auto;
   z-index: 100;
 }
 
@@ -14,9 +13,6 @@
 }
 
 .nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 62px;
 }
 
@@ -33,7 +29,7 @@
   color: #0e2431;
   font-weight: 500;
   font-size: 1.2rem;
-  padding: 0.7rem;
+  
 }
 
 .navbar .nav-container a:hover{
@@ -119,13 +115,13 @@
   color: #9e9e9e;
 }
 
-.logo  {
+.logo{
   position: absolute;
+  right: 0;
   top: 5px;
-  right: 15px;
-  font-size: 1.2rem;
-  color: #0e2431;
+  margin-right: 35px;
 }
+
 
 .logo img{
     width: 50px;
