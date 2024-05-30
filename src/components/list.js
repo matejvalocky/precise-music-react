@@ -8,7 +8,7 @@ const list = [
     tracks: "001---Edit - A Whole Thang<br>002---dotdash - Other Side<br>003---Molecular - The Funk Out (ft. Carasel)<br>004---Creatures, Ill Truth & ZeroZero - Knife Slice<br>005---KRÆK - Footprint (Fre4knc Remix)<br>006---Kyrist - Arroyo<br>007---Resslek - Squad<br>008---Skeptical -Thru My Head<br>009---T❯I & Inja - Flick the Switch (Waeys Remix)<br>010---Waeys & Molecular - Powerstream<br>",
     youtube: "",
     spotify: "",
-    housemixes: "",
+    housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-3",
   },
   {
     id: 37,
