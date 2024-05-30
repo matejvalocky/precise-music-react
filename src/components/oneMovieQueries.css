@@ -9,6 +9,10 @@
 /************************************************************/
 
 @media only screen and (max-width: 870px) {
+  section{
+    max-width: 550px;
+  }
+
   .coverTitle {
     /* background-color: red; */
     width: 100%;
@@ -20,6 +24,7 @@
   }
 
   .coverTitle img {
+    max-width: 550px;
     width: 100%;
   }
 
