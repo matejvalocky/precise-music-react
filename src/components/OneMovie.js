@@ -17,7 +17,7 @@ import "./WrapperQueries.css"
 
 
 import "./OneMovie.css"
-import "./OneMovieQueries.css"
+import "./oneMovieQueries.css"
 
 
 
