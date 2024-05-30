@@ -5,7 +5,7 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix 3",
     cover: require("./images/covers/2024-03-mix.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: "001---Edit - A Whole Thang<br>002---dotdash - Other Side<br>003---Molecular - The Funk Out (ft. Carasel)<br>004---Creatures, Ill Truth & ZeroZero - Knife Slice<br>005---KRÆK - Footprint (Fre4knc Remix)<br>006---Kyrist - Arroyo<br>007---Resslek - Squad<br>008---Skeptical -Thru My Head<br>009---T❯I & Inja - Flick the Switch (Waeys Remix)<br>010---Waeys & Molecular - Powerstream<br>",
     youtube: "",
     spotify: "",
     housemixes: "",
