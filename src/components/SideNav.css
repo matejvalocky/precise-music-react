@@ -202,6 +202,4 @@ nav ul li .icon :not(:hover){
 .active{
     color: rgb(201, 201, 201);
     position: relative;
-    left: 35px;
-    font-size: 20px;
 }
