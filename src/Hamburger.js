@@ -3,7 +3,7 @@ import "./components/HamburgerQueries.css"
 
 import { Link } from "react-router-dom"
 
-import logoImage from "./LOGO-240.png"
+
 
 
 
@@ -20,9 +20,7 @@ const Hamburger = () => {
                 <span className="line line2"></span>
                 <span className="line line3"></span>
               </div>  
-              <div className="logo">
-                <img src={logoImage} alt="" />
-              </div>
+
             
            
           <div className="menu-items">
