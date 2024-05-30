@@ -81,8 +81,9 @@ section a img{
 
 .coverTitle h1{
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 10px;
+    padding-left: 20px;
     font-size: 60px;
     font-size: 4vw;
     /* background-color: azure; */

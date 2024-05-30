@@ -27,8 +27,8 @@
 
   .coverTitle h1 {
     width: 100%;
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 15px 0;
     font-size: 6vw;
 
     /* background-color: azure; */
