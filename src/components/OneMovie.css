@@ -45,23 +45,22 @@ section a img{
     
 }
 
-.iconsUnderOneMix a img{
-    max-width: 40px;
-    max-height: 40px;
-    width: 5vw;
-    height: 5vw;
+.iconsUnderOneMix a{
+     padding-top: 15px;
 }
+
+
 
 .tracklist{
     width: 100%;
     line-height: 20px;
     font-size: 15px; 
-    padding: 0;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    padding: 8px 0;
+    
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    border-bottom: 0.5px grey solid;
     
 }
 
