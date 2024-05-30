@@ -1,7 +1,6 @@
 section{
+    width: 100%;
     padding: 20px;
-    width: 90%;
-    /* background-color: green; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -11,10 +10,7 @@ section{
     background: linear-gradient(to bottom, rgba(51, 51, 51, 0.8), rgba(0, 0, 0, 0.8));
 }
 
-section img{
-    max-width: 400px;
-    width: 20vw;
-}
+
 
 section p{
     color: white;
@@ -57,12 +53,21 @@ section a img{
 }
 
 .tracklist{
-    line-height: 0.95vw;
-    font-size: 0.75vw;
+    width: 100%;
+    line-height: 20px;
+    font-size: 15px; 
     padding: 0;
     padding-top: 15px;
     padding-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     
+}
+
+.coverTitle img{
+    max-width: 400px;
+    width: 20vw;
 }
 
 .coverTitle{
@@ -78,9 +83,9 @@ section a img{
 .coverTitle h1{
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 60px;
-    font-size: 3vw;
+    font-size: 4vw;
     /* background-color: azure; */
 }
 
