@@ -5,7 +5,7 @@ const list = [
         author: "Precise Music",
         title: "Drum and Bass 2024 Mix #2",
         cover: require("./images/covers/2024-02-mix.jpg") ,
-        tracks: "TRACKLIST SOON",
+        tracks: "001---Workforce, Break - Slippery Fella<br>002---Amoss, Minor Forms - Way Better<br>003---Tantrum Desire - Cluster<br>004---Muzz - Rain Dance<br>005---Wilkinson, Kelli-Leigh - This Moment<br>006---Monty - Stylz<br>007---Break, Fox - Code Red<br>008---Disrupta, Waeys, Slay - Lost Souls<br>009---Creatures, Hadley, Waeys - Fearless<br>010---Muzz - Galvanize<br>011---Fred V, Grafix - Maverick Souls<br>012---Andromedik, Idle Days - Stay<br>",
         youtube: "https://youtu.be/fzzQqNnhUK4",
         spotify: "",
         housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-2"
@@ -16,7 +16,7 @@ const list = [
       author: "Precise Music",
       title: "Drum and Bass 2024 Mix #1",
       cover: require("./images/covers/2024-01-mix.jpg") ,
-      tracks: "TRACKLIST SOON",
+      tracks: "001---S.P.Y - Source Code [9m]<br>002---Altered Concept - Read Between The Lines [10m]<br>003---KALOA - Enso [9m]<br>004---Polyrom - Techno Syndrome [1d]<br>005---NuLogic - What I've Always Waited For - Flava D Remix [1m]<br>006---Mista Trick - Golden Sound (Simple Souls Remix) [2m]<br>007---Phaeny - The Ride [2m]<br>008---Break - Digital World [3m]<br>009---Solace - The Rides [4m]<br>010---The Sauce - Fly Shit [4m]<br>011---Data 3 - Fossil - Edit Remix [4m]<br>012---TZ - What You Did [5m]<br>013-- Arkaik & Coma - Mind Games (ft. Ray Uptown) [6d]<br>014---Sense MC - A Penny for My Thoughts [7m]<br>",
       youtube: "https://www.youtube.com/watch?v=4nNMnUaYciw&t=0s",
       spotify: "",
       housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-1-by-precise-music"
