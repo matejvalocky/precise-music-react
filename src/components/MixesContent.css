@@ -15,9 +15,23 @@
     color: rgb(219, 219, 219);
 }
 
+.mixesInfo a:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
   .noUnderline{
       text-decoration: none;
+  }
+
+  .mixesLinks a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
