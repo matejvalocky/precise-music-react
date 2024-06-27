@@ -1,5 +1,4 @@
 // OBECNE CSS
-import { Form } from "react-router-dom";
 import "./Content.css";
 import Slideshows from "../components/Slideshows";
 
