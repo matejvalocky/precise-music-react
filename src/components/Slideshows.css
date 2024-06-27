@@ -19,3 +19,8 @@
   width: calc(100vw - 200px);
 }
 
+
+/* skrytie šípiek */
+button.nav.default-nav{
+  display: none;
+}

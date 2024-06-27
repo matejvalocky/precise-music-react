@@ -46,7 +46,8 @@ const SideNav = () => {
           <p>2024</p>
           <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank" rel="noreferrer">Template</a> <br />
           <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a> <br />
-          <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL">Hamburger menu</a>
+          <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL" target="_blank"  rel="noreferrer">Hamburger menu</a> <br />
+          <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a>
         </div>
       </div>
     </aside>
