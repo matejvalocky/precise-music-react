@@ -8,7 +8,8 @@ const MainContent = () => {
   return (
     <div className="mainContent content">
       
-        <h1>Precise <br /> Music</h1>
+        <h1>Precise Music</h1>
+        
         
       
     </div>
