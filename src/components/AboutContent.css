@@ -23,7 +23,11 @@
     color: white;
     width: 500px;
     text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
+
+
 
 .aboutWrapper h2{
     color: white;
