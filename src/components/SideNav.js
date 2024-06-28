@@ -48,7 +48,7 @@ const SideNav = () => {
           <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a> <br />
           <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL" target="_blank"  rel="noreferrer">Hamburger menu</a> <br />
           <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a> <br />
-          <a href="https://www.freepik.com/free-vector/gradient-black-background-with-wavy-lines_20248721.htm#fromView=search&page=1&position=46&uuid=4d15c688-1d8d-4e8f-8e89-bf8088d14691" target="_blank"  rel="noreferrer">Background image</a>
+          <a href="https://www.freepik.com/free-ai-image/black-orange-background-with-wavy-pattern_42539426.htm#fromView=search&page=1&position=25&uuid=29cc97e2-4d83-4557-83f6-a4448bdd01d5" target="_blank"  rel="noreferrer">Background image</a>
         </div>
       </div>
     </aside>
