@@ -47,7 +47,8 @@ const SideNav = () => {
           <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank" rel="noreferrer">Template</a> <br />
           <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a> <br />
           <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL" target="_blank"  rel="noreferrer">Hamburger menu</a> <br />
-          <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a>
+          <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a> <br />
+          <a href="https://www.freepik.com/free-vector/gradient-black-background-with-wavy-lines_20248721.htm#fromView=search&page=1&position=46&uuid=4d15c688-1d8d-4e8f-8e89-bf8088d14691" target="_blank"  rel="noreferrer">Background image</a>
         </div>
       </div>
     </aside>
