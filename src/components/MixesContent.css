@@ -13,6 +13,8 @@
     padding-bottom: 200px;
 }
 
+
+
 .mixesInfo h2{
     color: rgb(219, 219, 219);
 }
@@ -29,6 +31,12 @@
 
   .noUnderline{
       text-decoration: none;
+  }
+
+
+
+  .noUnderline h3{
+    color: rgb(219, 219, 219);
   }
 
   .mixesLinks a{

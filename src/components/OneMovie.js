@@ -30,7 +30,7 @@ const OneMovie = () => {
         return oneMovie.id === parseInt(movieId) // prevod textu na číslo = parseInt
     }) 
 
-    const {url, title, cover, tracks, youtube, housemixes} = oneSpecificMovie
+    const {url, title, author, cover, tracks, youtube, housemixes} = oneSpecificMovie
 
   return <div className="content oneMovieBG">
   <div className="wrapper">

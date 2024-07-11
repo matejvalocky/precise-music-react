@@ -12,7 +12,7 @@ import "./OneMixQueries.css"
 
 
 
-// import image  from "../../src/images/covers/april-2021.jpg"
+
 
 import youtubeIcon from "../../src/mixIcons/youtube.png"
 import housemixesIcon from "../../src/mixIcons/house-mixes.jpg"
@@ -38,6 +38,8 @@ import { Link } from "react-router-dom"
 
 const MixesContent = () => {
 
+  
+
 
 
 
@@ -61,7 +63,15 @@ const MixesContent = () => {
                         <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
                       </Link>
                       <Link to={`/all-movies/${oneMixFromList.id}`} className="noUnderline">
-                         <h2>{oneMixFromList.title}</h2>
+                         {/* <h2>{oneMixFromList.title}</h2>  */}
+
+                         <div className="addMixInfo">
+                            <h3>Mix name: {oneMixFromList.title} </h3>
+                            <h3>Year: {oneMixFromList.year} </h3>
+                            <h3>Style: Drum and Bass</h3>
+                            <h3>Duration:</h3>
+                            <h3>File size:</h3>
+                         </div>
                       </Link>
                      
               </div>
