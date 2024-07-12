@@ -66,11 +66,11 @@ const MixesContent = () => {
                          {/* <h2>{oneMixFromList.title}</h2>  */}
 
                          <div className="addMixInfo">
-                            <h3>Mix name: {oneMixFromList.title} </h3>
-                            <h3>Year: {oneMixFromList.year} </h3>
-                            <h3>Style: Drum and Bass</h3>
-                            <h3>Duration:</h3>
-                            <h3>File size:</h3>
+                            <div className="oneInfo"> <h3>Mix name:</h3> <p>{oneMixFromList.title} </p></div>
+                            <div className="oneInfo"><h3>Year:</h3> <p>{oneMixFromList.year} </p></div>
+                            <div className="oneInfo"><h3>Style:</h3> <p>Drum and Bass</p></div>
+                            <div className="oneInfo"><h3>Duration</h3><p>00:00:00</p></div>
+                            <div className="oneInfo"><h3>File size:</h3><p> 0.00 MB</p></div>
                          </div>
                       </Link>
                      
@@ -79,7 +79,6 @@ const MixesContent = () => {
                   <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
                   <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt="" /></a>
                   <a href={oneMixFromList.url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a>
-                  
               </div>
 
                  

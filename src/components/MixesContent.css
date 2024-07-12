@@ -39,9 +39,41 @@
     color: rgb(219, 219, 219);
   }
 
+.mixesLinks{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
   .mixesLinks a{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .addMixInfo{
+    padding-left: 10px;
+  }
+
+  .oneInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+
+  .oneInfo p{
+    color: rgb(219, 219, 219);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+  }
+
+  .oneInfo h3{
+    font-size: 22px;
+    width: 150px;
+    
   }
