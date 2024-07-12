@@ -19,7 +19,7 @@
     .oneMix{
         margin: 2px 5px;
         width: 100%;
-        height: 50px;
+        height: 250px;
         padding: 0;
     }
 
@@ -37,8 +37,8 @@
 
 
     .oneMixCover{
-        width: 40px;
-        height: 40px;
+        width: 150px;
+        height: 150px;
     }
 
     .mixesInfo{
