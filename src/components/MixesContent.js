@@ -67,10 +67,10 @@ const MixesContent = () => {
                          {/* <h2>{oneMixFromList.title}</h2>  */}
 
                          <div className="addMixInfo">
-                            <div className="oneInfo"> <h3>Mix name:</h3> <p>{oneMixFromList.title} </p></div>
+                            <div className="oneInfo"> <p>{oneMixFromList.title} </p></div>
                             <div className="oneInfo"><h3>Year:</h3> <p>{oneMixFromList.year} </p></div>
                             <div className="oneInfo"><h3>Style:</h3> <p>Drum and Bass</p></div>
-                            <div className="oneInfo"><h3>Duration</h3><p>00:00:00</p></div>
+                            <div className="oneInfo"><h3>Duration:</h3><p>00:00:00</p></div>
                             <div className="oneInfo"><h3>File size:</h3><p> 0.00 MB</p></div>
                          </div>
                       </Link>

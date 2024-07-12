@@ -65,10 +65,18 @@
   }
 
   .oneInfo p{
+    margin-left: 10px;
     color: rgb(219, 219, 219);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    
+  }
+
+  .oneInfo p:first-child{
+    text-transform: uppercase;
+    
+    color: white;
     
   }
 
