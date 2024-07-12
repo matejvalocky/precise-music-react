@@ -50,3 +50,12 @@
         display: none;
     }
    }
+
+
+   @media only screen and (max-width: 380px){
+    /* udalosti pod 380 pixelov šírky */
+    .addMixInfo p{
+        
+        font-size: 10px;
+    }
+   }
