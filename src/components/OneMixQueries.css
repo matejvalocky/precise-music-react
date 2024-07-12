@@ -1,91 +1,58 @@
-@media only screen and (max-width: 990px){
-    /* udalosti pod 990 pixelov šírky */
-   }
-
-@media only screen and (min-width: 990px){
-    /* udalosti nad 990 pixelov šírky */
-   }
-
-   /************************************************************/
-
-
-
-
-
-
-
-
-   @media only screen and (max-width: 560px){
-    .oneMix{
-        margin: 2px 5px;
-        width: 100%;
-        height: 250px;
-        padding: 0;
-    }
-
-    .mixesLinks a:nth-child(1){
-        display: none;
-   }
-
-   .mixesLinks a:nth-child(2){
-    display: none;
+@media only screen and (max-width: 990px) {
+  /* udalosti pod 990 pixelov šírky */
 }
 
-.mixesLinks a:nth-child(3){
-    display: none;
+@media only screen and (min-width: 990px) {
+  /* udalosti nad 990 pixelov šírky */
 }
 
+/************************************************************/
 
-    .oneMixCover{
-        width: 150px;
-        height: 150px;
-    }
+@media only screen and (max-width: 730px) {
+  /* udalosti pod 730 pixelov šírky */
+  .oneMix {
+    margin: 2px 5px;
+    width: 100%;
+    height: 115px;
+    padding: 0;
+  }
 
-    .mixesInfo{
-       
-        width: 300px;
+  .oneMixCover {
+    width: 100px;
+    height: 100px;
+  }
+}
 
-    }
+@media only screen and (max-width: 540px) {
+  .oneMix {
+    margin: 2px 5px;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+  }
 
-    .oneMix h2{
-        font-size: 15px;
-    }
+  .mixesLinks a:nth-child(1) {
+    display: none;
+  }
 
+  .mixesLinks a:nth-child(2) {
+    display: none;
+  }
 
-   }
+  .mixesLinks a:nth-child(3) {
+    display: none;
+  }
 
+  .oneMixCover {
+    width: 50px;
+    height: 50px;
+  }
 
-   @media only screen and (max-width: 450px){
-    .mixesInfo{
-       
-        width: 250px;
+  .mixesInfo {
+    width: 300px;
+  }
 
-    }
-
-    .oneMix h2{
-        font-size: 12px;
-    }
-
-    .mixesLinks a img{
-        width: 20px;
-        height: 20px;
-    }
-
-   
-   }
-
-
-   @media only screen and (max-width: 382px){
- 
-    .oneMixCover{
-        width: 30px;
-        height: 30px;
-    }
-
-    .oneMix{
-        
-        height: 40px;
-        
-    }
-   
+  .oneMix h2 {
+    font-size: 15px;
+  }
 }

@@ -1,0 +1,52 @@
+@media only screen and (max-width: 990px){
+    /* udalosti pod 990 pixelov šírky */
+   }
+
+@media only screen and (min-width: 990px){
+    /* udalosti nad 990 pixelov šírky */
+   }
+
+   /************************************************************/
+
+
+
+   @media only screen and (max-width: 730px){
+    /* udalosti pod 730 pixelov šírky */
+    .oneInfo h3{
+        font-size: 15px;
+        width: 150px;
+        line-height: 5px;
+        width: 115px;
+      }
+
+      .oneInfo p{
+        font-size: 13px;
+      }
+
+
+
+ 
+
+   }
+
+   @media only screen and (max-width: 540px){
+    /* udalosti pod 540 pixelov šírky */
+   
+
+    .addMixInfo > div:nth-child(2) {
+       display: none;
+    }
+    
+    .addMixInfo > div:nth-child(3) {
+        display: none;
+    }
+
+ 
+   }
+
+   @media only screen and (max-width: 500px){
+    /* udalosti pod 500 pixelov šírky */
+    .addMixInfo h3{
+        display: none;
+    }
+   }
