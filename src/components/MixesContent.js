@@ -1,96 +1,117 @@
 // OBECNE CSS
-import "./Content.css"
-import "./Wrapper.css"
-import "./WrapperQueries.css"
+import "./Content.css";
+import "./Wrapper.css";
+import "./WrapperQueries.css";
 
 // KONKRETNE CSS
-import "./MixesContent.css"
-import "./MixesContentQueries.css"
-import "./OneMix.css"
-import "./OneMixQueries.css"
+import "./MixesContent.css";
+import "./MixesContentQueries.css";
+import "./OneMix.css";
+import "./OneMixQueries.css";
 
+import youtubeIcon from "../../src/mixIcons/youtube.png";
+import housemixesIcon from "../../src/mixIcons/house-mixes.jpg";
+import downloadIcon from "../../src/mixIcons/download.png";
 
+import list from "../components/list";
 
+import { Link } from "react-router-dom";
 
-
-
-
-import youtubeIcon from "../../src/mixIcons/youtube.png"
-import housemixesIcon from "../../src/mixIcons/house-mixes.jpg"
-import downloadIcon from "../../src/mixIcons/download.png"
-
-
-import list from "../components/list"
-
-import { Link } from "react-router-dom"
-
-
-
-
-
-
-
-
-
-
-
-
+import { useSpring, animated } from "@react-spring/web";
 
 
 const MixesContent = () => {
+  // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
 
-  
+  const props = useSpring({
+    opacity: 1,
+    transform: 'scale(1) translateY(0px)',
+    backgroundColor: '#ff6f61',
+    boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.2)',
+    from: {
+      opacity: 0,
+      transform: 'scale(0.8) translateY(-50px)',
+      backgroundColor: '#ffffff',
+      boxShadow: '0px 0px 0px rgba(0, 0, 0, 0)',
+    },
+    config: { tension: 200, friction: 15 },
+  });
 
+  return <animated.div style={props}>
+      <div className="mixesContent content">
+        <div className="wrapper">
+          <h1>Drum and Bass Mixes</h1>
+          <div className="allMixes">
+            {list.map((oneMixFromList) => {
+              return (
+                <div className="oneMix" key={oneMixFromList.id}>
+                  <div className="mixesInfo">
+                    <Link to={`/all-movies/${oneMixFromList.id}`}>
+                      <img
+                        className="oneMixCover"
+                        src={oneMixFromList.cover}
+                        alt=""
+                      />
+                    </Link>
+                    <Link
+                      to={`/all-movies/${oneMixFromList.id}`}
+                      className="noUnderline"
+                    >
+                      {/* <h2>{oneMixFromList.title}</h2>  */}
 
-
-
-
-
-
-  
-
-  return <div className="mixesContent content">
-      <div className="wrapper">
-        <h1>Drum and Bass Mixes</h1>
-       <div className="allMixes">
-         
-          {
-            list.map((oneMixFromList) => {
-              return <div className="oneMix" key={oneMixFromList.id}>
-
-              
-              <div className="mixesInfo">
-                      <Link to={`/all-movies/${oneMixFromList.id}`}>
-                        <img className="oneMixCover" src={oneMixFromList.cover} alt="" />
-                      </Link>
-                      <Link to={`/all-movies/${oneMixFromList.id}`} className="noUnderline">
-                         {/* <h2>{oneMixFromList.title}</h2>  */}
-
-                         <div className="addMixInfo">
-                            <div className="oneInfo"> <p>{oneMixFromList.title} </p></div>
-                            <div className="oneInfo"><h3>Year:</h3> <p>{oneMixFromList.year} </p></div>
-                            <div className="oneInfo"><h3>Style:</h3> <p>Drum and Bass</p></div>
-                            <div className="oneInfo"><h3>Duration:</h3><p>00:00:00</p></div>
-                            <div className="oneInfo"><h3>File size:</h3><p> 0.00 MB</p></div>
-                         </div>
-                      </Link>
-                     
-              </div>
-              <div className="mixesLinks">
-                  <a href={oneMixFromList.youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a>
-                  <a href={oneMixFromList.housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt="" /></a>
-                  <a href={oneMixFromList.url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a>
-              </div>
-
-                 
-              </div>
-            })
-          }
-       </div>
+                      <div className="addMixInfo">
+                        <div className="oneInfo">
+                          {" "}
+                          <p>{oneMixFromList.title} </p>
+                        </div>
+                        <div className="oneInfo">
+                          <h3>Year:</h3> <p>{oneMixFromList.year} </p>
+                        </div>
+                        <div className="oneInfo">
+                          <h3>Style:</h3> <p>Drum and Bass</p>
+                        </div>
+                        <div className="oneInfo">
+                          <h3>Duration:</h3>
+                          <p>00:00:00</p>
+                        </div>
+                        <div className="oneInfo">
+                          <h3>File size:</h3>
+                          <p> 0.00 MB</p>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="mixesLinks">
+                    <a
+                      href={oneMixFromList.youtube}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img src={youtubeIcon} alt="" />
+                    </a>
+                    <a
+                      href={oneMixFromList.housemixes}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img src={housemixesIcon} alt="" />
+                    </a>
+                    <a
+                      href={oneMixFromList.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img src={downloadIcon} alt="" />
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
-    </div>
-}
+    </animated.div>
+  
+};
 
-
-
-export default MixesContent
+export default MixesContent;
