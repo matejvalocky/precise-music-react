@@ -13,11 +13,11 @@ const MainContent = () => {
   const props = useSpring({
     opacity: 1,
     transform: 'translateY(0px)',
-    backgroundColor: '#f0f0f0',
+    
     from: {
       opacity: 0,
       transform: 'translateY(20px)',
-      backgroundColor: '#ffffff',
+      
     },
     config: { tension: 170, friction: 26 },
   });
