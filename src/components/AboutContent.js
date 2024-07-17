@@ -6,12 +6,27 @@ import "./Wrapper.css"
 import "./AboutContent.css"
 import "./AboutContentQueries.css"
 
+import { useSpring, animated } from "@react-spring/web";
+
 const AboutContent = () => {
+
+  const props = useSpring({
+    opacity: 1,
+    transform: 'translateY(0px)',
+    
+    from: {
+      opacity: 0,
+      transform: 'translateY(20px)',
+      
+    },
+    config: { tension: 170, friction: 26 },
+  });
+
   return (
     <div className="aboutContent content">
      <div className="wrapper">
        <h1>About me</h1>
-       <div className="languageWrapper">
+       <animated.div style={props}>       <div className="languageWrapper">
         {/* <div className="aboutWrapper">
             <h2>Slovak</h2>
             <p>Predstavte si DJa, ktorý sa zamiloval do mixovania hudby už ako 15-ročný teenager. Začínal so štýlom House a neskôr presedlal na Drum and Bass. Jeho precíznosť pri výbere jednotlivých skladieb a prechodov sú úplne jedinečné a charakteristické pre jeho hudobné mixy. Samozrejme má aj svoje meno a priezvisko, no používa preudonym "Precise Music". Pri mixovaní trackov sa snaží dosiahnuť maximálny zážitok pre svojich poslucháčov.</p>
@@ -28,7 +43,8 @@ const AboutContent = () => {
             <p>For Precise Music, music is not just a pastime, but a true passion. That's why he's constantly striving to perfect his art and find new ways to improve his mixes and bring them to the next level.</p>
             <p>You can look forward to a whole new experience when he performs and a musical experience that won't leave you long after his set is over. Precise Music is a true master of his craft and his passion for music will make for an unforgettable experience.</p>
         </div>
-       </div>
+       </div></animated.div>
+
      </div>
     </div>
   )
