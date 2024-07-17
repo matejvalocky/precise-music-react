@@ -12,7 +12,7 @@
 }
 
 .fullFrame{
-    width: 100vw;
+    width: 100%;
     background-image: url(../../img/background/background-texture.jpg);
     background-repeat: no-repeat;
     background-size: cover;

@@ -21,20 +21,18 @@ import { useSpring, animated } from "@react-spring/web";
 
 
 const MixesContent = () => {
-  // const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+ 
 
-  const props = useSpring({
+const props = useSpring({
     opacity: 1,
-    transform: 'scale(1) translateY(0px)',
-    backgroundColor: '#ff6f61',
-    boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.2)',
+    transform: 'translateY(0px)',
+    backgroundColor: '#f0f0f0',
     from: {
       opacity: 0,
-      transform: 'scale(0.8) translateY(-50px)',
+      transform: 'translateY(20px)',
       backgroundColor: '#ffffff',
-      boxShadow: '0px 0px 0px rgba(0, 0, 0, 0)',
     },
-    config: { tension: 200, friction: 15 },
+    config: { tension: 170, friction: 26 },
   });
 
   return <animated.div style={props}>
