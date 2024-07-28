@@ -7,6 +7,8 @@ import { Link } from "react-router-dom"
 
 
 
+
+
 const Hamburger = () => {
   return (
     <div className="hamburgerMenu">
@@ -20,6 +22,9 @@ const Hamburger = () => {
                 <span className="line line2"></span>
                 <span className="line line3"></span>
               </div>  
+
+              <h1>Precise Music Official Website</h1>
+              <div className="logoImage logoNav"></div>
 
             
            
