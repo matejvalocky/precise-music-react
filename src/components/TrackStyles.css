@@ -1,0 +1,48 @@
+
+.track{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 20px;
+    background-color: red;
+
+}
+
+
+.trackNumber{
+    background-color: green;
+    width: 100px;
+    height: 100%;
+}
+
+.trackSeparator{
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+
+}
+
+
+.trackArtist{
+    width: 200px;
+    height: 100%;
+    background-color: blue;
+}
+
+.trackDash{
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+
+.trackName{
+    width: 200px;
+    height: 100%;
+    background-color: blueviolet;
+}

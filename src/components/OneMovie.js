@@ -21,6 +21,7 @@ import "./oneMovieQueries.css"
 
 
 
+
 const OneMovie = () => {
     
 
