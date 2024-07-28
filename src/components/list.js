@@ -4,7 +4,7 @@ const list = [
       year: 2024,
       url:"",
       author: "Precise Music",
-      title: "Drum and Bass TEST Mix 2024",
+      title: "Drum and Bass TEST text text Mix 2024",
       cover: require("./images/covers/2024-01-mix.jpg") ,
       // tracks:   `<div class='track'>
       //             <div class='trackNumber'>000</div>

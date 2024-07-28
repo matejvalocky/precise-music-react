@@ -10,7 +10,20 @@
 
 
 
+@media only screen and (max-width: 930px) {
+  /* udalosti pod 930 pixelov šírky */
 
+  .coverTitle img {
+    width: 30%;
+  }
+
+  .coverTitle h1 {
+    width: 70%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 6vw;
+  }
+}
 
 
 
@@ -34,7 +47,8 @@
 
   .coverTitle h1 {
     width: 100%;
-    text-align: left;
+    height: 100% ;
+    text-align: center;
     padding: 15px 0;
     font-size: 6vw;
 
@@ -45,4 +59,14 @@
     line-height: 15px;
     font-size: 12px;
   }
+
+  .trackSeparator{
+    min-width: 2px;
+}
+
+.trackNumber{
+  /* background-color: green; */
+  min-width: 30px;
+  
+}
 }
