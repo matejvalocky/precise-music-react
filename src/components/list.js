@@ -1,44 +1,23 @@
 const list = [
   {
-      id: 39,
-      year: 2024,
-      url:"",
-      author: "Precise Music",
-      title: "Drum and Bass TEST text text Mix 2024",
-      cover: require("./images/covers/2024-01-mix.jpg") ,
-      // tracks:   `<div class='track'>
-      //             <div class='trackNumber'>000</div>
-      //             <div class='trackSeparator'>|</div>
-      //             <div class='trackArtist'>Track Artist</div>
-      //             <div class='trackDash'>-</div>
-      //             <div class='trackName'>Track Name</div>
-      //         </div>`,
-
-      tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Edit </div><div class='trackDash'>-</div><div class='trackName'> A Whole Thang</div></div>
-<div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>dotdash </div><div class='trackDash'>-</div><div class='trackName'> Other Side</div></div>
-<div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Molecular </div><div class='trackDash'>-</div><div class='trackName'> The Funk Out (ft. Carasel)</div></div>
-<div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Creatures, Ill Truth & ZeroZero </div><div class='trackDash'>-</div><div class='trackName'> Knife Slice</div></div>
-<div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>KRÆK </div><div class='trackDash'>-</div><div class='trackName'> Footprint (Fre4knc Remix)</div></div>
-<div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Arroyo</div></div>
-<div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Resslek </div><div class='trackDash'>-</div><div class='trackName'> Squad</div></div>
-<div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Skeptical </div><div class='trackDash'>-</div><div class='trackName'>Thru My Head</div></div>
-<div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>T❯I & Inja </div><div class='trackDash'>-</div><div class='trackName'> Flick the Switch (Waeys Remix)</div></div>
-<div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Waeys & Molecular </div><div class='trackDash'>-</div><div class='trackName'> Powerstream</div></div>
-<div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hiraeth </div><div class='trackDash'>-</div><div class='trackName'> Between Old And New (HumaNature Remix)</div></div>
-`,
-      youtube: "",
-      spotify: "",
-      housemixes: ""
-    },
-
-  {
     id: 38,
     year: 2024,
     url: "https://drive.google.com/file/d/1e5DlYqGKfQPwrcv8Nrm9aNUo_j2F74KO/view?usp=drive_link",
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #3",
     cover: require("./images/covers/2024-03-mix.jpg"),
-    tracks: "001---Edit - A Whole Thang<br>002---dotdash - Other Side<br>003---Molecular - The Funk Out (ft. Carasel)<br>004---Creatures, Ill Truth & ZeroZero - Knife Slice<br>005---KRÆK - Footprint (Fre4knc Remix)<br>006---Kyrist - Arroyo<br>007---Resslek - Squad<br>008---Skeptical - Thru My Head<br>009---T❯I & Inja - Flick the Switch (Waeys Remix)<br>010---Waeys & Molecular - Powerstream<br> 011---Hiraeth - Between Old And New (HumaNature Remix)<br>",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Edit </div><div class='trackDash'>-</div><div class='trackName'> A Whole Thang</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>dotdash </div><div class='trackDash'>-</div><div class='trackName'> Other Side</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Molecular </div><div class='trackDash'>-</div><div class='trackName'> The Funk Out (ft. Carasel)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Creatures, Ill Truth & ZeroZero </div><div class='trackDash'>-</div><div class='trackName'> Knife Slice</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>KRÆK </div><div class='trackDash'>-</div><div class='trackName'> Footprint (Fre4knc Remix)</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Arroyo</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Resslek </div><div class='trackDash'>-</div><div class='trackName'> Squad</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Skeptical </div><div class='trackDash'>-</div><div class='trackName'>Thru My Head</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>T❯I & Inja </div><div class='trackDash'>-</div><div class='trackName'> Flick the Switch (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Waeys & Molecular </div><div class='trackDash'>-</div><div class='trackName'> Powerstream</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hiraeth </div><div class='trackDash'>-</div><div class='trackName'> Between Old And New (HumaNature Remix)</div></div>
+            `,
     youtube: "https://youtu.be/EC5EE1umwxE",
     spotify: "",
     housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-3",
