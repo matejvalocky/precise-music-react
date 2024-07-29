@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const SideNav = () => {
   return (
-    <aside className="sideNavigation">
+        <aside className="sideNavigation">    
       <div className="logoAndNav">
         <div className="logoImage">
           <div className="opacityBlock">
@@ -50,7 +50,7 @@ const SideNav = () => {
           <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a> <br />
           <a href="https://www.freepik.com/free-ai-image/black-orange-background-with-wavy-pattern_42539426.htm#fromView=search&page=1&position=25&uuid=29cc97e2-4d83-4557-83f6-a4448bdd01d5" target="_blank"  rel="noreferrer">Background image</a>
         </div>
-      </div>
+      </div> 
     </aside>
   );
 };

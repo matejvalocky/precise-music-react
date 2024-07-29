@@ -3,20 +3,21 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
+    width: 100vw;
     height: 100vh;
   }
-  
-  .each-slide-effect span {
-    padding: 20px;
-    font-size: 35px;
-    background: #efefef;
-    text-align: center;
-    color: black;
 
+
+  .each-slide-effect{
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
   }
+
 
 .slideshow-frame{
   width: calc(100vw - 200px);
+  width: 100vw;
 }
 
 
