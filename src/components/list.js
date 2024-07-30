@@ -824,35 +824,35 @@ const list = [
     title: "Drum and Bass January Mix #1 2022",
     cover: require("./images/covers/january-2022.jpg"),
     tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> BCee </div><div class='trackDash'>-</div><div class='trackName'> History (Technimatic Remix)</div></div>
-<div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Breakage </div><div class='trackDash'>-</div><div class='trackName'> The Original Certified Bubbler</div></div>
-<div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ed_it </div><div class='trackDash'>-</div><div class='trackName'> The Ticket</div></div>
-<div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Klinical </div><div class='trackDash'>-</div><div class='trackName'> The Shaman (NickBee Remix)</div></div>
-<div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Riya </div><div class='trackDash'>-</div><div class='trackName'> Blame</div></div>
-<div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Yatuza </div><div class='trackDash'>-</div><div class='trackName'> Tales From The Crypt</div></div>
-<div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Aiight</div></div>
-<div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Take A Dive</div></div>
-<div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Invert Era </div><div class='trackDash'>-</div><div class='trackName'> Give Me (Levela Remix)</div></div>
-<div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Levela </div><div class='trackDash'>-</div><div class='trackName'> Play Again</div></div>
-<div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Myth </div><div class='trackDash'>-</div><div class='trackName'> Tundra (Myth Remix)</div></div>
-<div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Resslek </div><div class='trackDash'>-</div><div class='trackName'> Absinto</div></div>
-<div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> SiLi </div><div class='trackDash'>-</div><div class='trackName'> Ay Swetch (OZOH Remix)</div></div>
-<div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Rido </div><div class='trackDash'>-</div><div class='trackName'> Let It Roll (VIP)</div></div>
-<div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Sam Binga </div><div class='trackDash'>-</div><div class='trackName'> Organic (Enei Remix)</div></div>
-<div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trilo </div><div class='trackDash'>-</div><div class='trackName'> KILO</div></div>
-<div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>  AC13 </div><div class='trackDash'>-</div><div class='trackName'> Scanning Pages</div></div>
-<div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Riot Jazz Brass Band </div><div class='trackDash'>-</div><div class='trackName'> Remember The Future by London Elektricity</div></div>
-<div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Baskerville </div><div class='trackDash'>-</div><div class='trackName'> Times (Document One Remix)</div></div>
-<div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Kethamine</div></div>
-<div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Icicle </div><div class='trackDash'>-</div><div class='trackName'> Dreadnaught</div></div>
-<div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kije </div><div class='trackDash'>-</div><div class='trackName'> It Is Not Right</div></div>
-<div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Klimate </div><div class='trackDash'>-</div><div class='trackName'> Wishes</div></div>
-<div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mirrorman </div><div class='trackDash'>-</div><div class='trackName'> Push</div></div>
-<div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Amoss </div><div class='trackDash'>-</div><div class='trackName'> Ginger Tea</div></div>
-<div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Amoss </div><div class='trackDash'>-</div><div class='trackName'> Baked Potato</div></div>
-<div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Culture Shock </div><div class='trackDash'>-</div><div class='trackName'> Bunker</div></div>
-<div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> Friction </div><div class='trackDash'>-</div><div class='trackName'> Splurge</div></div>
-<div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> Safire </div><div class='trackDash'>-</div><div class='trackName'> ONE (DLR Remix)</div></div>
-`,
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Breakage </div><div class='trackDash'>-</div><div class='trackName'> The Original Certified Bubbler</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ed_it </div><div class='trackDash'>-</div><div class='trackName'> The Ticket</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Klinical </div><div class='trackDash'>-</div><div class='trackName'> The Shaman (NickBee Remix)</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Riya </div><div class='trackDash'>-</div><div class='trackName'> Blame</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Yatuza </div><div class='trackDash'>-</div><div class='trackName'> Tales From The Crypt</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Aiight</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Take A Dive</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Invert Era </div><div class='trackDash'>-</div><div class='trackName'> Give Me (Levela Remix)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Levela </div><div class='trackDash'>-</div><div class='trackName'> Play Again</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Myth </div><div class='trackDash'>-</div><div class='trackName'> Tundra (Myth Remix)</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Resslek </div><div class='trackDash'>-</div><div class='trackName'> Absinto</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> SiLi </div><div class='trackDash'>-</div><div class='trackName'> Ay Swetch (OZOH Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Rido </div><div class='trackDash'>-</div><div class='trackName'> Let It Roll (VIP)</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Sam Binga </div><div class='trackDash'>-</div><div class='trackName'> Organic (Enei Remix)</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trilo </div><div class='trackDash'>-</div><div class='trackName'> KILO</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>  AC13 </div><div class='trackDash'>-</div><div class='trackName'> Scanning Pages</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Riot Jazz Brass Band </div><div class='trackDash'>-</div><div class='trackName'> Remember The Future by London Elektricity</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Baskerville </div><div class='trackDash'>-</div><div class='trackName'> Times (Document One Remix)</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Kethamine</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Icicle </div><div class='trackDash'>-</div><div class='trackName'> Dreadnaught</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kije </div><div class='trackDash'>-</div><div class='trackName'> It Is Not Right</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Klimate </div><div class='trackDash'>-</div><div class='trackName'> Wishes</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mirrorman </div><div class='trackDash'>-</div><div class='trackName'> Push</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Amoss </div><div class='trackDash'>-</div><div class='trackName'> Ginger Tea</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Amoss </div><div class='trackDash'>-</div><div class='trackName'> Baked Potato</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Culture Shock </div><div class='trackDash'>-</div><div class='trackName'> Bunker</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> Friction </div><div class='trackDash'>-</div><div class='trackName'> Splurge</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> Safire </div><div class='trackDash'>-</div><div class='trackName'> ONE (DLR Remix)</div></div>
+            `,
     youtube:
       "https://youtu.be/JaNK75j0tA4?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
