@@ -693,7 +693,34 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass March Mix 2022",
     cover: require("./images/covers/march-2022.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> DJ Zinc </div><div class='trackDash'>-</div><div class='trackName'> Stand Tall</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Keeno </div><div class='trackDash'>-</div><div class='trackName'> Communications</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dabs </div><div class='trackDash'>-</div><div class='trackName'> Sleepless City (HLZ Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jade </div><div class='trackDash'>-</div><div class='trackName'> What You Are (Break Remix)</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Macca </div><div class='trackDash'>-</div><div class='trackName'> Regeneration</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> MD </div><div class='trackDash'>-</div><div class='trackName'> Manga</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Philip George </div><div class='trackDash'>-</div><div class='trackName'> Wish You Were Mine (Dexcell Remix)</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dunk </div><div class='trackDash'>-</div><div class='trackName'> My Baby (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Acquiesce</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Gun Finger</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dunk </div><div class='trackDash'>-</div><div class='trackName'> Gun Ball</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Exult </div><div class='trackDash'>-</div><div class='trackName'> Gimme Dat</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> ZeroZero </div><div class='trackDash'>-</div><div class='trackName'> John Blaze</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Andrax </div><div class='trackDash'>-</div><div class='trackName'> Big Shack</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Forbidden Society </div><div class='trackDash'>-</div><div class='trackName'> Overthinking (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> GROUND </div><div class='trackDash'>-</div><div class='trackName'> Tripbox</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> High Contrast </div><div class='trackDash'>-</div><div class='trackName'> Twilight's Last Gleaming</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Oliver Heldens </div><div class='trackDash'>-</div><div class='trackName'> Gecko (Overdrive) (Matrix & Futurebound Remix)</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Danny Byrd </div><div class='trackDash'>-</div><div class='trackName'> Ill Behaviour</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Grafix </div><div class='trackDash'>-</div><div class='trackName'> Feel Alive</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Chase & Status </div><div class='trackDash'>-</div><div class='trackName'> Step Away</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dub Phizix </div><div class='trackDash'>-</div><div class='trackName'> The Clock Ticks (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dunk </div><div class='trackDash'>-</div><div class='trackName'> Bristol Vibes</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> SVB </div><div class='trackDash'>-</div><div class='trackName'> Mando</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> ZeroZero </div><div class='trackDash'>-</div><div class='trackName'> Donkeybean</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> missledz </div><div class='trackDash'>-</div><div class='trackName'> 70 Percent (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Molecular </div><div class='trackDash'>-</div><div class='trackName'> Space Journey</div></div>
+            `,
     youtube:
       "https://youtu.be/9v7sjVd6jOc?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
