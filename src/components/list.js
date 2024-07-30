@@ -524,33 +524,33 @@ const list = [
     title: "Drum and Bass July Mix 2022",
     cover: require("./images/covers/july-2022.jpg"),
     tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Fred V </div><div class='trackDash'>-</div><div class='trackName'> Climbing The Walls</div></div>
-<div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Makoto </div><div class='trackDash'>-</div><div class='trackName'> The Best Is Yet To Come</div></div>
-<div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Slay</div></div>
-<div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Beskar </div><div class='trackDash'>-</div><div class='trackName'> I Know</div></div>
-<div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hugh Hardie </div><div class='trackDash'>-</div><div class='trackName'> Talk The Talk</div></div>
-<div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Noisia </div><div class='trackDash'>-</div><div class='trackName'> Caps Lock</div></div>
-<div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ominous </div><div class='trackDash'>-</div><div class='trackName'> Turn Up</div></div>
-<div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> S.P.Y </div><div class='trackDash'>-</div><div class='trackName'> Shelter</div></div>
-<div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Survey </div><div class='trackDash'>-</div><div class='trackName'> Loose Change</div></div>
-<div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> The Run (Molecular Remix)</div></div>
-<div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kove </div><div class='trackDash'>-</div><div class='trackName'> The Music</div></div>
-<div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Flute Ting</div></div>
-<div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Omega</div></div>
-<div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jubei </div><div class='trackDash'>-</div><div class='trackName'> Patience</div></div>
-<div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Anapa </div><div class='trackDash'>-</div><div class='trackName'> Hoods</div></div>
-<div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> DLR </div><div class='trackDash'>-</div><div class='trackName'> Absolutely True</div></div>
-<div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kasra </div><div class='trackDash'>-</div><div class='trackName'> Elastic</div></div>
-<div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Logistics </div><div class='trackDash'>-</div><div class='trackName'> Rituals</div></div>
-<div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Phentix </div><div class='trackDash'>-</div><div class='trackName'> Don't Wait</div></div>
-<div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Bensley </div><div class='trackDash'>-</div><div class='trackName'> Roll The Dice</div></div>
-<div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Grafix </div><div class='trackDash'>-</div><div class='trackName'> Skyline</div></div>
-<div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> The Rush</div></div>
-<div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> Gasp</div></div>
-<div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ruckus </div><div class='trackDash'>-</div><div class='trackName'> System Error</div></div>
-<div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Terrence & Phillip </div><div class='trackDash'>-</div><div class='trackName'> No Cure</div></div>
-<div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ruckus </div><div class='trackDash'>-</div><div class='trackName'> White Lies</div></div>
-<div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Technology</div></div>
-`,
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Makoto </div><div class='trackDash'>-</div><div class='trackName'> The Best Is Yet To Come</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Slay</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Beskar </div><div class='trackDash'>-</div><div class='trackName'> I Know</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hugh Hardie </div><div class='trackDash'>-</div><div class='trackName'> Talk The Talk</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Noisia </div><div class='trackDash'>-</div><div class='trackName'> Caps Lock</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ominous </div><div class='trackDash'>-</div><div class='trackName'> Turn Up</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> S.P.Y </div><div class='trackDash'>-</div><div class='trackName'> Shelter</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Survey </div><div class='trackDash'>-</div><div class='trackName'> Loose Change</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> The Run (Molecular Remix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kove </div><div class='trackDash'>-</div><div class='trackName'> The Music</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Flute Ting</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Omega</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jubei </div><div class='trackDash'>-</div><div class='trackName'> Patience</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Anapa </div><div class='trackDash'>-</div><div class='trackName'> Hoods</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> DLR </div><div class='trackDash'>-</div><div class='trackName'> Absolutely True</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kasra </div><div class='trackDash'>-</div><div class='trackName'> Elastic</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Logistics </div><div class='trackDash'>-</div><div class='trackName'> Rituals</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Phentix </div><div class='trackDash'>-</div><div class='trackName'> Don't Wait</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Bensley </div><div class='trackDash'>-</div><div class='trackName'> Roll The Dice</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Grafix </div><div class='trackDash'>-</div><div class='trackName'> Skyline</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> The Rush</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> Gasp</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ruckus </div><div class='trackDash'>-</div><div class='trackName'> System Error</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Terrence & Phillip </div><div class='trackDash'>-</div><div class='trackName'> No Cure</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ruckus </div><div class='trackDash'>-</div><div class='trackName'> White Lies</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Technology</div></div>
+            `,
     youtube:
       "https://youtu.be/pIVUYeddO-Q?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "https://open.spotify.com/playlist/53HghvfrRU5bxJ4dd2cduN",
@@ -565,7 +565,40 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass June Mix 2022",
     cover: require("./images/covers/june-2022.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Blame You</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mista Trick </div><div class='trackDash'>-</div><div class='trackName'> Golden Sound ( BCee Remix)</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ordure </div><div class='trackDash'>-</div><div class='trackName'> Dumflad ( Document One Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Revaux </div><div class='trackDash'>-</div><div class='trackName'> Sludge</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> Two Note Wonder</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Bad Boy Tune</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Song and Dance</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dossa & Locuzzed </div><div class='trackDash'>-</div><div class='trackName'> Play</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Underfall</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Phibes </div><div class='trackDash'>-</div><div class='trackName'> Unite (VIP)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Ghost</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Terror </div><div class='trackDash'>-</div><div class='trackName'> Gold (Grafix Remix)</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> The Sauce </div><div class='trackDash'>-</div><div class='trackName'> 3 Dots</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Dirty Dance</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Creatures </div><div class='trackDash'>-</div><div class='trackName'> Fearless</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dedman </div><div class='trackDash'>-</div><div class='trackName'> Morsel</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> DLR </div><div class='trackDash'>-</div><div class='trackName'> Blips</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ill Truth </div><div class='trackDash'>-</div><div class='trackName'> Close To The Edge</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kasra </div><div class='trackDash'>-</div><div class='trackName'> Elastic</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Komatic </div><div class='trackDash'>-</div><div class='trackName'> Trepidation</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> MD </div><div class='trackDash'>-</div><div class='trackName'> Syntax</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Example </div><div class='trackDash'>-</div><div class='trackName'> DEEP (feat. Nonô)</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kumarion </div><div class='trackDash'>-</div><div class='trackName'> Right Now</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Molecular </div><div class='trackDash'>-</div><div class='trackName'> The Computer</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> DLR </div><div class='trackDash'>-</div><div class='trackName'> A Different Style</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Prestige </div><div class='trackDash'>-</div><div class='trackName'> Momentous Goal</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Terrence & Phillip </div><div class='trackDash'>-</div><div class='trackName'> Ghetto Bass</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> The Upbeats </div><div class='trackDash'>-</div><div class='trackName'> Beams (Monty Remix)</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mollie Collins </div><div class='trackDash'>-</div><div class='trackName'> Dance Together</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'> Komatic </div><div class='trackDash'>-</div><div class='trackName'> Make Me Feel</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'> Alibi </div><div class='trackDash'>-</div><div class='trackName'> Jet Wash</div></div>
+            <div class='track'><div class='trackNumber'>032</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hugh Hardie </div><div class='trackDash'>-</div><div class='trackName'> Kodiak</div></div>
+            <div class='track'><div class='trackNumber'>033</div><div class='trackSeparator'>|</div><div class='trackArtist'> Revaux </div><div class='trackDash'>-</div><div class='trackName'> Simple</div></div>
+            `,
     youtube:
       "https://youtu.be/lMQyJQ8uUks?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "https://open.spotify.com/playlist/5jINvKju5GptlMuJedV7zV",
