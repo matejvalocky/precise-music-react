@@ -613,7 +613,33 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass May Mix 2022",
     cover: require("./images/covers/may-2022.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Workforce </div><div class='trackDash'>-</div><div class='trackName'> Attention to Suffering</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jubei </div><div class='trackDash'>-</div><div class='trackName'> Send Out</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Submotive </div><div class='trackDash'>-</div><div class='trackName'> Poisoned</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Nymfo </div><div class='trackDash'>-</div><div class='trackName'> Crush</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Aardvark</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Back To Me</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Translation</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> The Upbeats </div><div class='trackDash'>-</div><div class='trackName'> Realm (Upgrade Remix)</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Spinline </div><div class='trackDash'>-</div><div class='trackName'> Please Stand Here</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Visages </div><div class='trackDash'>-</div><div class='trackName'> Familiarity</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Voodoo</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Stokka </div><div class='trackDash'>-</div><div class='trackName'> Havoc</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trakker </div><div class='trackDash'>-</div><div class='trackName'> Intelligence</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> The Sauce </div><div class='trackDash'>-</div><div class='trackName'> Shaken Not Stirred</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei </div><div class='trackDash'>-</div><div class='trackName'> Give It</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dub Elements </div><div class='trackDash'>-</div><div class='trackName'> Parasites</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> Brook </div><div class='trackDash'>-</div><div class='trackName'> Flightless</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> GLM </div><div class='trackDash'>-</div><div class='trackName'> Always</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> DLR </div><div class='trackDash'>-</div><div class='trackName'> Crawlway</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> SiLi </div><div class='trackDash'>-</div><div class='trackName'> Gallop</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Humanature </div><div class='trackDash'>-</div><div class='trackName'> Keeping On  (Villem Remix)</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hologram </div><div class='trackDash'>-</div><div class='trackName'> Wreck It</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Particle </div><div class='trackDash'>-</div><div class='trackName'> Switch Hunt</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Invert Era </div><div class='trackDash'>-</div><div class='trackName'> How About It</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> BCee </div><div class='trackDash'>-</div><div class='trackName'> Let Go of Love</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jam Thieves </div><div class='trackDash'>-</div><div class='trackName'> Underground</div></div>
+            `,
     youtube:
       "https://youtu.be/cKrzy9FKprY?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "https://open.spotify.com/playlist/0iMVgpgnBvjfYQ9gbZ0LYf",
