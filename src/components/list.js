@@ -654,7 +654,32 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass April Mix 2022",
     cover: require("./images/covers/april-2022.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Sound In Noise </div><div class='trackDash'>-</div><div class='trackName'> Shapes (feat. Marie)</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Exploid </div><div class='trackDash'>-</div><div class='trackName'> Bridge into Your Memories</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Madface </div><div class='trackDash'>-</div><div class='trackName'> Claptrap</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Metrik </div><div class='trackDash'>-</div><div class='trackName'> Hackers</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Stanton Warriors </div><div class='trackDash'>-</div><div class='trackName'> Still Here ( Fred V & Grafix Remix)</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Toronto Is Broken </div><div class='trackDash'>-</div><div class='trackName'> Between Planes</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Music Is Better</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Bungle </div><div class='trackDash'>-</div><div class='trackName'> No Time 2 Love</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kove </div><div class='trackDash'>-</div><div class='trackName'> Power</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Myselor </div><div class='trackDash'>-</div><div class='trackName'> Eternal Energy</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Transforma </div><div class='trackDash'>-</div><div class='trackName'> Plagues (Kodin Remix)</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trilo </div><div class='trackDash'>-</div><div class='trackName'> Sion</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Volatile Cycle </div><div class='trackDash'>-</div><div class='trackName'> Disgruntled</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Smooth </div><div class='trackDash'>-</div><div class='trackName'> Triumphant</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> MNDSCP </div><div class='trackDash'>-</div><div class='trackName'> Flesh Eater</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Myselor </div><div class='trackDash'>-</div><div class='trackName'> The Feeling Expands</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> FarFlow </div><div class='trackDash'>-</div><div class='trackName'> Pipeline</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ripple </div><div class='trackDash'>-</div><div class='trackName'> Summer Lights feat Eviya</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dr. Apollo </div><div class='trackDash'>-</div><div class='trackName'> Waves (feat. Bzrkr)</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> B-Complex</div><div class='trackDash'>-</div><div class='trackName'> Early Bird</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Makoto </div><div class='trackDash'>-</div><div class='trackName'> Maybe We'll Make It</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> In_Most </div><div class='trackDash'>-</div><div class='trackName'> Glimmer (Dustkey Remix)</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Netsky </div><div class='trackDash'>-</div><div class='trackName'> Everybody Loves The Sunshine</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Keeno </div><div class='trackDash'>-</div><div class='trackName'> Seek & Expand</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Emily Lim </div><div class='trackDash'>-</div><div class='trackName'> Breakbeat Brass</div></div>
+            `,
     youtube:
       "https://youtu.be/WHc76yVmSSI?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
