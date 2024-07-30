@@ -913,7 +913,37 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass December Mix #1 2021",
     cover: require("./images/covers/december-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dephzac </div><div class='trackDash'>-</div><div class='trackName'> Remember (Original mix)</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Fred V </div><div class='trackDash'>-</div><div class='trackName'> 12 Years Ago</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Beks </div><div class='trackDash'>-</div><div class='trackName'> Devoted (SØL Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dossa & Locuzzed </div><div class='trackDash'>-</div><div class='trackName'> Tommy</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Blaine Stranger </div><div class='trackDash'>-</div><div class='trackName'> Dragon</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ephyum </div><div class='trackDash'>-</div><div class='trackName'> Diaphanous</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Stenchman & Meloki </div><div class='trackDash'>-</div><div class='trackName'> 4th Child (Joe Ford Remix)</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> AKOV </div><div class='trackDash'>-</div><div class='trackName'> Ensnared</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Visages & Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Mirai</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> missledz </div><div class='trackDash'>-</div><div class='trackName'> Contrivance (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mystic State </div><div class='trackDash'>-</div><div class='trackName'> Full Spec (ft. MC Fokus)</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> What It Was</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dephzac </div><div class='trackDash'>-</div><div class='trackName'> Prophet (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dossa & Locuzzed </div><div class='trackDash'>-</div><div class='trackName'> Tribe</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ephyum </div><div class='trackDash'>-</div><div class='trackName'> Knockback</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> John B </div><div class='trackDash'>-</div><div class='trackName'> Be Free</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> S.P.Y </div><div class='trackDash'>-</div><div class='trackName'> Nebula</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Stokka </div><div class='trackDash'>-</div><div class='trackName'> Creature</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Zombie Cats </div><div class='trackDash'>-</div><div class='trackName'> Snake Bite (Felix Raymon Remix)</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Audio </div><div class='trackDash'>-</div><div class='trackName'> Project 1</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> A-Negative</div><div class='trackDash'>-</div><div class='trackName'> Lurker </div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dopplershift & Among Us </div><div class='trackDash'>-</div><div class='trackName'> Funk Materials</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Entita & Gexan </div><div class='trackDash'>-</div><div class='trackName'> Blazin</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Zeds Dead x Urbandawn </div><div class='trackDash'>-</div><div class='trackName'> Sound Of The Underground</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Re_Form </div><div class='trackDash'>-</div><div class='trackName'> No Show</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Horde & Reptile </div><div class='trackDash'>-</div><div class='trackName'> Valentino</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Fre4knc & Klinical </div><div class='trackDash'>-</div><div class='trackName'> The Shaman</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> Amoss </div><div class='trackDash'>-</div><div class='trackName'> Blue Whale</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jam Thieves </div><div class='trackDash'>-</div><div class='trackName'> Tijuana</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enfuse </div><div class='trackDash'>-</div><div class='trackName'> Acan</div></div>
+            `,
     youtube:
       "https://youtu.be/L-f8MB2Xc74?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
