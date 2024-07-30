@@ -735,7 +735,36 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass February Mix 2022",
     cover: require("./images/covers/february-2022.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Fly By Midnight </div><div class='trackDash'>-</div><div class='trackName'> Borrow Your Time (Fred V Remix)</div></div>
+<div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Exult </div><div class='trackDash'>-</div><div class='trackName'> Mobiustrip</div></div>
+<div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Philth </div><div class='trackDash'>-</div><div class='trackName'> Dust Mountain</div></div>
+<div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One </div><div class='trackDash'>-</div><div class='trackName'> Throwback</div></div>
+<div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Mistrust </div><div class='trackDash'>-</div><div class='trackName'> Boxcutter</div></div>
+<div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Molecular </div><div class='trackDash'>-</div><div class='trackName'> The Foundation</div></div>
+<div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> ORAM </div><div class='trackDash'>-</div><div class='trackName'> Fine Wine</div></div>
+<div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> PRTCL </div><div class='trackDash'>-</div><div class='trackName'> Three Robots Drinking Coffee Online (Original Mix)</div></div>
+<div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Subtle Element </div><div class='trackDash'>-</div><div class='trackName'> Dark Arts</div></div>
+<div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Yannons </div><div class='trackDash'>-</div><div class='trackName'> Space Magic</div></div>
+<div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Alix Perez </div><div class='trackDash'>-</div><div class='trackName'> Snake Style</div></div>
+<div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Eastcolors </div><div class='trackDash'>-</div><div class='trackName'> Shout</div></div>
+<div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Glÿph </div><div class='trackDash'>-</div><div class='trackName'> Azimuth</div></div>
+<div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> J_Rover </div><div class='trackDash'>-</div><div class='trackName'> Real Good</div></div>
+<div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Eastcolors </div><div class='trackDash'>-</div><div class='trackName'> Bad Beats</div></div>
+<div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Horde </div><div class='trackDash'>-</div><div class='trackName'> Tech Tech</div></div>
+<div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hugh Hardie </div><div class='trackDash'>-</div><div class='trackName'> Cold Touch</div></div>
+<div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Glÿph </div><div class='trackDash'>-</div><div class='trackName'> Trust Me (Original Mix)</div></div>
+<div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Bios Destruction </div><div class='trackDash'>-</div><div class='trackName'> Lose Problems</div></div>
+<div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Creatures </div><div class='trackDash'>-</div><div class='trackName'> Audio Poetry</div></div>
+<div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Logistics </div><div class='trackDash'>-</div><div class='trackName'> Love Letters</div></div>
+<div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Jomari </div><div class='trackDash'>-</div><div class='trackName'> Cycles</div></div>
+<div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dis_turbed </div><div class='trackDash'>-</div><div class='trackName'> Oversensitive</div></div>
+<div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> Monty </div><div class='trackDash'>-</div><div class='trackName'> Vibin'</div></div>
+<div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Objectiv </div><div class='trackDash'>-</div><div class='trackName'> In Your Eyes</div></div>
+<div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Resslek </div><div class='trackDash'>-</div><div class='trackName'> Bista</div></div>
+<div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Tweakz </div><div class='trackDash'>-</div><div class='trackName'> Embrace (Wingz Remix)</div></div>
+<div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> Walk_r </div><div class='trackDash'>-</div><div class='trackName'> Mantra</div></div>
+<div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> PRTCL </div><div class='trackDash'>-</div><div class='trackName'> Who Said That Funk Is Dead (Original Mix)</div></div>
+`,
     youtube:
       "https://youtu.be/L1cpwv_vDhQ?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
