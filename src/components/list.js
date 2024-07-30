@@ -867,7 +867,38 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass December Mix #2 2021",
     cover: require("./images/covers/december-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Athena </div><div class='trackDash'>-</div><div class='trackName'> Don't Let</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> KNOWMANS </div><div class='trackDash'>-</div><div class='trackName'> Nimbus</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> KNOWMANS </div><div class='trackDash'>-</div><div class='trackName'> Snacks</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Stereotype </div><div class='trackDash'>-</div><div class='trackName'> Sweet Homeostasis</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Disrupta </div><div class='trackDash'>-</div><div class='trackName'> Like U</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> WAVES </div><div class='trackDash'>-</div><div class='trackName'> Horizon (ft. Lauren Walton)</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Release Me</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Linguistics </div><div class='trackDash'>-</div><div class='trackName'> Our Time ft. Document One</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Brain & Dunk </div><div class='trackDash'>-</div><div class='trackName'> Gonna Be Hard</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enfuse </div><div class='trackDash'>-</div><div class='trackName'> Subaqua</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Invert Era </div><div class='trackDash'>-</div><div class='trackName'> Cooperate (Hoax Remix)</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Koax </div><div class='trackDash'>-</div><div class='trackName'> Sugarloaf</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Monty </div><div class='trackDash'>-</div><div class='trackName'> Rest</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> SHY FX </div><div class='trackDash'>-</div><div class='trackName'> Balaclava (feat. MC Spyda, D Double E & Frisco) Skeptical Remix</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> UKato </div><div class='trackDash'>-</div><div class='trackName'> Delhi Shuffler</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys & Rueben </div><div class='trackDash'>-</div><div class='trackName'> Hooh</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> Forbidden Society & Agressor Bunx </div><div class='trackDash'>-</div><div class='trackName'> Steel City</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Hystatus </div><div class='trackDash'>-</div><div class='trackName'> Keraunós</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Monty </div><div class='trackDash'>-</div><div class='trackName'> STK</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Monty </div><div class='trackDash'>-</div><div class='trackName'> Stylz</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'> Agressor Bunx </div><div class='trackDash'>-</div><div class='trackName'> Airflow</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'> Juno </div><div class='trackDash'>-</div><div class='trackName'> Lilith</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'> Silloh </div><div class='trackDash'>-</div><div class='trackName'> Whiplash</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'> UKato </div><div class='trackDash'>-</div><div class='trackName'> Eirene</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'> Audio </div><div class='trackDash'>-</div><div class='trackName'> Spider Tank</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'> Exult </div><div class='trackDash'>-</div><div class='trackName'> Gimme Dat</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'> Monty </div><div class='trackDash'>-</div><div class='trackName'> Cursive</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'> Objectiv </div><div class='trackDash'>-</div><div class='trackName'> The Swan</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'> Agressor Bunx </div><div class='trackDash'>-</div><div class='trackName'> Bunker</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'> High Maintenance & ALSO </div><div class='trackDash'>-</div><div class='trackName'> Party Every Day (Joe Ford Remix)</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'> L Plus </div><div class='trackDash'>-</div><div class='trackName'> Town Underground</div></div>
+            `,
     youtube:
       "https://youtu.be/9sO2oKi-DRE?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
