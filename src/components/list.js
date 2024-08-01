@@ -1369,7 +1369,28 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass JULY #1 Mix 2021",
     cover: require("./images/covers/july-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>FRED V </div><div class='trackDash'>-</div><div class='trackName'> LIGHT IN THE DISTANCE</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>NETSKY </div><div class='trackDash'>-</div><div class='trackName'> BASIC INSTINCT</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>CULTURE SHOCK </div><div class='trackDash'>-</div><div class='trackName'> DISCOTHEQUE</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>WILKINSON, AMBER VAN DAY </div><div class='trackDash'>-</div><div class='trackName'> KEEP DANCING</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>K MOTIONZ, IC3 </div><div class='trackDash'>-</div><div class='trackName'> REACTION</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>DOCUMENT ONE </div><div class='trackDash'>-</div><div class='trackName'> HANDS UP</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>FREQAX, HUMANON, TOMTEK </div><div class='trackDash'>-</div><div class='trackName'> OH!  (HUMANON & TOMTEK REMIX)</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>KASRA, ENEI </div><div class='trackDash'>-</div><div class='trackName'> GREED</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>AMOSS </div><div class='trackDash'>-</div><div class='trackName'> SOUTH OF THE RIVER</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>BLACK BARREL </div><div class='trackDash'>-</div><div class='trackName'> DON´T STOP</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>MD </div><div class='trackDash'>-</div><div class='trackName'> VANDAL</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>KASRA </div><div class='trackDash'>-</div><div class='trackName'> MISO</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>WAEYS </div><div class='trackDash'>-</div><div class='trackName'> SNOAR</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>THE OUTSIDERS </div><div class='trackDash'>-</div><div class='trackName'> LUMINOUS (ORIGINAL MIX)</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>GLXY, RHI </div><div class='trackDash'>-</div><div class='trackName'> SWEET LOWS</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>ENEI, CHARLI BRIX </div><div class='trackDash'>-</div><div class='trackName'> JUST ONE LOOK FEAT. CHARLI BRIX</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>FRED V, VONNÉ, KYRIST </div><div class='trackDash'>-</div><div class='trackName'> AWAY ( KYRIST REMIX)</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>L-SIDE, MC FATS, BREAK </div><div class='trackDash'>-</div><div class='trackName'> HIGH TIMES (BREAK REMIX)</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>BREAK </div><div class='trackDash'>-</div><div class='trackName'> NEVER SAY NEVER</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>WAEYS </div><div class='trackDash'>-</div><div class='trackName'> REACH OUT</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>WORKFORCE </div><div class='trackDash'>-</div><div class='trackName'> YOUR MOVES</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=0nw61rBHT0Q&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=28&pp=iAQB8AUB",
     spotify: "",
