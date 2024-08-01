@@ -1560,7 +1560,24 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass January Mix 2021",
     cover: require("./images/covers/january-2021.jpg"),
-    tracks: ``,
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Styke</div><div class='trackDash'>-</div><div class='trackName'>Stride</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hugh Hardie</div><div class='trackDash'>-</div><div class='trackName'>Darjeeling</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ruckspin, Ruth Royal</div><div class='trackDash'>-</div><div class='trackName'>Porcelain</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Charli Brix, Visages</div><div class='trackDash'>-</div><div class='trackName'>Full Circle (DJ Marky Remix)</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Terror, Espa</div><div class='trackDash'>-</div><div class='trackName'>Loaded Gun</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Styke, Auris</div><div class='trackDash'>-</div><div class='trackName'>Mellifluous</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Shibumi</div><div class='trackDash'>-</div><div class='trackName'>Sings</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Askel, Becca Jane Grey</div><div class='trackDash'>-</div><div class='trackName'>Goodbye VIP</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Document One</div><div class='trackDash'>-</div><div class='trackName'>Like This</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR, Hoppa</div><div class='trackDash'>-</div><div class='trackName'>A World That Looked The Same</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alibi, Nitri</div><div class='trackDash'>-</div><div class='trackName'>No Escape</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Keeno, Telomic</div><div class='trackDash'>-</div><div class='trackName'>Listen Close</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sustance, Charli Brix</div><div class='trackDash'>-</div><div class='trackName'>Break the Habit</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Revaux</div><div class='trackDash'>-</div><div class='trackName'>Ibex</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>DOT, Kyrist</div><div class='trackDash'>-</div><div class='trackName'>Arbus (Kyrist Remix)</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Constrict</div><div class='trackDash'>-</div><div class='trackName'>Never Lost (Ill Truth Remix)</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Visages, Messy MC</div><div class='trackDash'>-</div><div class='trackName'>Para Days</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=yGS6uX8XojM&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=33&pp=iAQB8AUB",
     spotify: "",
