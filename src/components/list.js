@@ -958,7 +958,35 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass November Mix #2 2021",
     cover: require("./images/covers/november-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mat Zo </div><div class='trackDash'>-</div><div class='trackName'> Reflections (ft. Olan)</div></div>
+            <div class='track'><div class='trackNumber'>0:02:57</div><div class='trackSeparator'>|</div><div class='trackArtist'>A.M.C </div><div class='trackDash'>-</div><div class='trackName'> Brazil</div></div>
+            <div class='track'><div class='trackNumber'>0:04:47</div><div class='trackSeparator'>|</div><div class='trackArtist'>Volition ft. Gid Sedgwick </div><div class='trackDash'>-</div><div class='trackName'> Stand The Pain</div></div>
+            <div class='track'><div class='trackNumber'>0:06:15</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kove </div><div class='trackDash'>-</div><div class='trackName'> Sweet Music</div></div>
+            <div class='track'><div class='trackNumber'>0:08:28</div><div class='trackSeparator'>|</div><div class='trackArtist'>London Elektricity </div><div class='trackDash'>-</div><div class='trackName'> Never Trust A Hippy (Logistics Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:10:18</div><div class='trackSeparator'>|</div><div class='trackArtist'>Phaction ft. Leo Wood </div><div class='trackDash'>-</div><div class='trackName'> I Have You (Ill Truth Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:12:30</div><div class='trackSeparator'>|</div><div class='trackArtist'>Anapa </div><div class='trackDash'>-</div><div class='trackName'> Empty Hands</div></div>
+            <div class='track'><div class='trackNumber'>0:15:05</div><div class='trackSeparator'>|</div><div class='trackArtist'>Waeys </div><div class='trackDash'>-</div><div class='trackName'> Time Out</div></div>
+            <div class='track'><div class='trackNumber'>0:17:17</div><div class='trackSeparator'>|</div><div class='trackArtist'>Grey Code </div><div class='trackDash'>-</div><div class='trackName'> Simple Things (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:19:30</div><div class='trackSeparator'>|</div><div class='trackArtist'>Trilo </div><div class='trackDash'>-</div><div class='trackName'> Metrolab</div></div>
+            <div class='track'><div class='trackNumber'>0:22:26</div><div class='trackSeparator'>|</div><div class='trackArtist'>Skantia & KY </div><div class='trackDash'>-</div><div class='trackName'> Programmed To Die</div></div>
+            <div class='track'><div class='trackNumber'>0:25:01</div><div class='trackSeparator'>|</div><div class='trackArtist'>AKOV & Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Disfunktion</div></div>
+            <div class='track'><div class='trackNumber'>0:27:13</div><div class='trackSeparator'>|</div><div class='trackArtist'>Document One </div><div class='trackDash'>-</div><div class='trackName'> Wibble Wobble</div></div>
+            <div class='track'><div class='trackNumber'>0:29:04</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dub Elements </div><div class='trackDash'>-</div><div class='trackName'> Got Smashed</div></div>
+            <div class='track'><div class='trackNumber'>0:30:32</div><div class='trackSeparator'>|</div><div class='trackArtist'>Eastcolors </div><div class='trackDash'>-</div><div class='trackName'> All Step Back</div></div>
+            <div class='track'><div class='trackNumber'>0:32:22</div><div class='trackSeparator'>|</div><div class='trackArtist'>BRK & Bacon </div><div class='trackDash'>-</div><div class='trackName'> Obsession (L-Side Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:34:12</div><div class='trackSeparator'>|</div><div class='trackArtist'>Levela </div><div class='trackDash'>-</div><div class='trackName'> Watch Your Step</div></div>
+            <div class='track'><div class='trackNumber'>0:36:25</div><div class='trackSeparator'>|</div><div class='trackArtist'>Melinki & D'cypher </div><div class='trackDash'>-</div><div class='trackName'> Rip Ya Torso (Ill Truth Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:38:16</div><div class='trackSeparator'>|</div><div class='trackArtist'>Vici ft. Miss Understood </div><div class='trackDash'>-</div><div class='trackName'> Glow VIP</div></div>
+            <div class='track'><div class='trackNumber'>0:39:44</div><div class='trackSeparator'>|</div><div class='trackArtist'>Workforce ft. SP:MC </div><div class='trackDash'>-</div><div class='trackName'> Overnight Express (Break Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:42:18</div><div class='trackSeparator'>|</div><div class='trackArtist'>Drumcatcher </div><div class='trackDash'>-</div><div class='trackName'> Give Me A Bomb (Black Barrel Remix)</div></div>
+            <div class='track'><div class='trackNumber'>0:44:08</div><div class='trackSeparator'>|</div><div class='trackArtist'>Glitch City ft Contagion </div><div class='trackDash'>-</div><div class='trackName'> Flatliners</div></div>
+            <div class='track'><div class='trackNumber'>0:45:15</div><div class='trackSeparator'>|</div><div class='trackArtist'>Trobe </div><div class='trackDash'>-</div><div class='trackName'> Initiate ft. B-Don</div></div>
+            <div class='track'><div class='trackNumber'>0:47:05</div><div class='trackSeparator'>|</div><div class='trackArtist'>Trex </div><div class='trackDash'>-</div><div class='trackName'> Dopamine (VIP)</div></div>
+            <div class='track'><div class='trackNumber'>0:49:17</div><div class='trackSeparator'>|</div><div class='trackArtist'>Trex </div><div class='trackDash'>-</div><div class='trackName'> Let Me Go Again</div></div>
+            <div class='track'><div class='trackNumber'>0:51:06</div><div class='trackSeparator'>|</div><div class='trackArtist'>Seereal </div><div class='trackDash'>-</div><div class='trackName'> About This Thing</div></div>
+            <div class='track'><div class='trackNumber'>0:52:57</div><div class='trackSeparator'>|</div><div class='trackArtist'>Metal Work </div><div class='trackDash'>-</div><div class='trackName'> High Tech</div></div>
+            <div class='track'><div class='trackNumber'>0:55:09</div><div class='trackSeparator'>|</div><div class='trackArtist'>Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Close Your Eyes</div></div>
+            `,
     youtube:
       "https://youtu.be/p5HkuuWNaqc?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
@@ -973,7 +1001,44 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass November Mix #1 2021",
     cover: require("./images/covers/november-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>AKOV </div><div class='trackDash'>-</div><div class='trackName'> Voices</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mirrorman & Submotive </div><div class='trackDash'>-</div><div class='trackName'> Testament</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>MLH </div><div class='trackDash'>-</div><div class='trackName'> Technique</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Rizzle </div><div class='trackDash'>-</div><div class='trackName'> Feelings</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Rillium </div><div class='trackDash'>-</div><div class='trackName'> Control</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Gusto & DLR</div><div class='trackDash'>-</div><div class='trackName'> Deadly Chain</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Nemy </div><div class='trackDash'>-</div><div class='trackName'> Inserted</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Luude </div><div class='trackDash'>-</div><div class='trackName'> Wanna Stay (feat. Dear Sunday) [Fred V Remix]</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Grafix x Lee Mvtthews </div><div class='trackDash'>-</div><div class='trackName'> Underground (ft. Elipsa)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Holy Goof </div><div class='trackDash'>-</div><div class='trackName'> Untouchable (ft. Takura)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Bushido</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sudley </div><div class='trackDash'>-</div><div class='trackName'> Stonks</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tom Finster </div><div class='trackDash'>-</div><div class='trackName'> Convoy</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Zombie Cats </div><div class='trackDash'>-</div><div class='trackName'> Selva  Rohaan Remix</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Revan & Solace </div><div class='trackDash'>-</div><div class='trackName'> Click Check</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>AKOV </div><div class='trackDash'>-</div><div class='trackName'> The Itch</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Objectiv </div><div class='trackDash'>-</div><div class='trackName'> Firecracker</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>MLH </div><div class='trackDash'>-</div><div class='trackName'> Hard Work</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sudley </div><div class='trackDash'>-</div><div class='trackName'> Clipart</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>MLH </div><div class='trackDash'>-</div><div class='trackName'> Chant</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Gusto & DLR </div><div class='trackDash'>-</div><div class='trackName'> Round In Circles</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR & Break & MC Gusto </div><div class='trackDash'>-</div><div class='trackName'> Temperature Is Rising</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>MLH </div><div class='trackDash'>-</div><div class='trackName'> Mechanical Spectrum  Objectiv Remix</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Nemy </div><div class='trackDash'>-</div><div class='trackName'> Humans</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kublai & Minor Forms </div><div class='trackDash'>-</div><div class='trackName'> Got Me Feeling</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>Nectax </div><div class='trackDash'>-</div><div class='trackName'> Treadstone</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tyrone </div><div class='trackDash'>-</div><div class='trackName'> City Lights</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Linguistics & Monrroe </div><div class='trackDash'>-</div><div class='trackName'> Eyes Shut</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hillsdom </div><div class='trackDash'>-</div><div class='trackName'> Fauxtopia</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dunk </div><div class='trackDash'>-</div><div class='trackName'> Burn Roll</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'>MLH </div><div class='trackDash'>-</div><div class='trackName'> Gat</div></div>
+            <div class='track'><div class='trackNumber'>032</div><div class='trackSeparator'>|</div><div class='trackArtist'>Odd Mob </div><div class='trackDash'>-</div><div class='trackName'> Disappear (feat. Hayley Trinca) [ShockOne Remix]</div></div>
+            <div class='track'><div class='trackNumber'>033</div><div class='trackSeparator'>|</div><div class='trackArtist'>Smooth x Zombie Cats </div><div class='trackDash'>-</div><div class='trackName'> Make Me Move (ft. Sarah Pellicano)</div></div>
+            <div class='track'><div class='trackNumber'>034</div><div class='trackSeparator'>|</div><div class='trackArtist'>EastColors </div><div class='trackDash'>-</div><div class='trackName'> Dubby (Jubei Remix)</div></div>
+            <div class='track'><div class='trackNumber'>035</div><div class='trackSeparator'>|</div><div class='trackArtist'>Technimatic </div><div class='trackDash'>-</div><div class='trackName'> Makes Me</div></div>
+            <div class='track'><div class='trackNumber'>036</div><div class='trackSeparator'>|</div><div class='trackArtist'>The Prototypes ft. Kudu Blue </div><div class='trackDash'>-</div><div class='trackName'> Passion (Tantrum Desire Remix)</div></div>
+            <div class='track'><div class='trackNumber'>037</div><div class='trackSeparator'>|</div><div class='trackArtist'>Flowidus & TREi </div><div class='trackDash'>-</div><div class='trackName'> Don't Breathe In (ft. Linguistics)</div></div>
+            `,
     youtube:
       "https://youtu.be/ZUuQvXyMbV0?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
@@ -988,7 +1053,43 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass October Mix #2 2021",
     cover: require("./images/covers/october-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Be Careful (ft. Marianna Ray)</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Blanke </div><div class='trackDash'>-</div><div class='trackName'> Breathe</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>K Motionz ft. Emily Makis </div><div class='trackDash'>-</div><div class='trackName'> High Note</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>DJ Rap & Exile </div><div class='trackDash'>-</div><div class='trackName'> Never Again</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>InsideInfo & Hybrid Minds </div><div class='trackDash'>-</div><div class='trackName'> Beneath</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data 3 </div><div class='trackDash'>-</div><div class='trackName'> Fission</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Justin Hawkes </div><div class='trackDash'>-</div><div class='trackName'> IJDK</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>The Skeptics </div><div class='trackDash'>-</div><div class='trackName'> Insidious</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>En_vy </div><div class='trackDash'>-</div><div class='trackName'> Pegasos</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Klinical </div><div class='trackDash'>-</div><div class='trackName'> Around Me (Workforce Remix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>MD </div><div class='trackDash'>-</div><div class='trackName'> Arrival</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Disrupta, Waeys & Slay </div><div class='trackDash'>-</div><div class='trackName'> Lost Souls</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Monty </div><div class='trackDash'>-</div><div class='trackName'> Fat Fields (Genic Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Break </div><div class='trackDash'>-</div><div class='trackName'> Minimus</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>D_Minds </div><div class='trackDash'>-</div><div class='trackName'> Charlie's Sheen</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Bredren & T Man </div><div class='trackDash'>-</div><div class='trackName'> Inferno (DLR Remix)</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Amplify </div><div class='trackDash'>-</div><div class='trackName'> Greeze (Ft. Stytchd)</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Waeys & Particle </div><div class='trackDash'>-</div><div class='trackName'> Rave Tool</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sudley </div><div class='trackDash'>-</div><div class='trackName'> Component</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>Objectiv </div><div class='trackDash'>-</div><div class='trackName'> Admission</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Lowriderz </div><div class='trackDash'>-</div><div class='trackName'> Gang War</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Conrad Subs </div><div class='trackDash'>-</div><div class='trackName'> Cool Off</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dan Structure </div><div class='trackDash'>-</div><div class='trackName'> Echus Chasma</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Jam Thieves </div><div class='trackDash'>-</div><div class='trackName'> Bangkok</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Terrence & Phillip </div><div class='trackDash'>-</div><div class='trackName'> Fusion</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>Aznok </div><div class='trackDash'>-</div><div class='trackName'> Sidewalk</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>InsideInfo </div><div class='trackDash'>-</div><div class='trackName'> Being</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dopplershift & Krispy </div><div class='trackDash'>-</div><div class='trackName'> The Gallow</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Serum & Voltage </div><div class='trackDash'>-</div><div class='trackName'> Don't Know Why</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dunk </div><div class='trackDash'>-</div><div class='trackName'> Acid Light</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'>No Human Sound </div><div class='trackDash'>-</div><div class='trackName'> Nostromo (Plastiks Remix)</div></div>
+            <div class='track'><div class='trackNumber'>032</div><div class='trackSeparator'>|</div><div class='trackArtist'>PRTCL </div><div class='trackDash'>-</div><div class='trackName'> Cold Cappuccino</div></div>
+            <div class='track'><div class='trackNumber'>033</div><div class='trackSeparator'>|</div><div class='trackArtist'>switch_case </div><div class='trackDash'>-</div><div class='trackName'> Saucer</div></div>
+            <div class='track'><div class='trackNumber'>034</div><div class='trackSeparator'>|</div><div class='trackArtist'>Exile & AIRGLO </div><div class='trackDash'>-</div><div class='trackName'> Purify feat. C&C</div></div>
+            <div class='track'><div class='trackNumber'>035</div><div class='trackSeparator'>|</div><div class='trackArtist'>The Skeptics </div><div class='trackDash'>-</div><div class='trackName'> Complex Illusions</div></div>
+            <div class='track'><div class='trackNumber'>036</div><div class='trackSeparator'>|</div><div class='trackArtist'>Grey Code </div><div class='trackDash'>-</div><div class='trackName'> Helios</div></div>
+            `,
     youtube:
       "https://youtu.be/N3xl1QAeRj0?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
@@ -1003,7 +1104,42 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass October Mix #1 2021",
     cover: require("./images/covers/october-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ruth Royall x Blacklab </div><div class='trackDash'>-</div><div class='trackName'> Be Careful (ft. Marianna Ray)</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Break </div><div class='trackDash'>-</div><div class='trackName'> Breathe</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Grey Code </div><div class='trackDash'>-</div><div class='trackName'> High Note</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ill Truth </div><div class='trackDash'>-</div><div class='trackName'> Never Again</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Cesco </div><div class='trackDash'>-</div><div class='trackName'> Beneath</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>DC Breaks </div><div class='trackDash'>-</div><div class='trackName'> Fission</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR </div><div class='trackDash'>-</div><div class='trackName'> IJDK</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data 3 </div><div class='trackDash'>-</div><div class='trackName'> Insidious</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>InsideInfo & Hybrid Minds </div><div class='trackDash'>-</div><div class='trackName'> Pegasos</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>MD </div><div class='trackDash'>-</div><div class='trackName'> Around Me (Workforce Remix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sub Zero & T95 ft. MadRush MC </div><div class='trackDash'>-</div><div class='trackName'> Arrival</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ed Solo, Deekline </div><div class='trackDash'>-</div><div class='trackName'> Lost Souls</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Revaux </div><div class='trackDash'>-</div><div class='trackName'> Fat Fields (Genic Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mefjus & Camo & Krooked </div><div class='trackDash'>-</div><div class='trackName'> Minimus</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Document One x Dynamite MC </div><div class='trackDash'>-</div><div class='trackName'> Charlie's Sheen</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Freaks & Geeks </div><div class='trackDash'>-</div><div class='trackName'> Inferno (DLR Remix)</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Friction </div><div class='trackDash'>-</div><div class='trackName'> Greeze (Ft. Stytchd)</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sigma, Carla Marie </div><div class='trackDash'>-</div><div class='trackName'> Rave Tool</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Macca & Loz Contreras </div><div class='trackDash'>-</div><div class='trackName'> Component</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>Metrik & Grafix </div><div class='trackDash'>-</div><div class='trackName'> Admission</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Millbrook </div><div class='trackDash'>-</div><div class='trackName'> Gang War</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Cool Off</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Monty </div><div class='trackDash'>-</div><div class='trackName'> Echus Chasma</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hadley </div><div class='trackDash'>-</div><div class='trackName'> Bangkok</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enta </div><div class='trackDash'>-</div><div class='trackName'> Fusion</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>Upgrade </div><div class='trackDash'>-</div><div class='trackName'> Sidewalk</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>Inja </div><div class='trackDash'>-</div><div class='trackName'> Being</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sub Zero & T95 ft. Rider Shafique </div><div class='trackDash'>-</div><div class='trackName'> The Gallow</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Terrence & Phillip </div><div class='trackDash'>-</div><div class='trackName'> Don't Know Why</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'>Black Sun Empire & Nymfo </div><div class='trackDash'>-</div><div class='trackName'> Acid Light</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'>Lupo & Jappa </div><div class='trackDash'>-</div><div class='trackName'> Nostromo (Plastiks Remix)</div></div>
+            <div class='track'><div class='trackNumber'>032</div><div class='trackSeparator'>|</div><div class='trackArtist'>Navigator </div><div class='trackDash'>-</div><div class='trackName'> Cold Cappuccino</div></div>
+            <div class='track'><div class='trackNumber'>033</div><div class='trackSeparator'>|</div><div class='trackArtist'>Objectiv </div><div class='trackDash'>-</div><div class='trackName'> Saucer</div></div>
+            <div class='track'><div class='trackNumber'>034</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sustance </div><div class='trackDash'>-</div><div class='trackName'> Purify feat. C&C</div></div>
+            <div class='track'><div class='trackNumber'>035</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kasra </div><div class='trackDash'>-</div><div class='trackName'> Complex Illusions</div></div>
+            `,
     youtube:
       "https://youtu.be/Xfg1qidEkk4?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
@@ -1011,14 +1147,45 @@ const list = [
       "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-october-mix-1-2021-mixed-by-pre",
   },
   {
-    id: 12,
+    id: 11,
     year: 2021,
     // url:"./download/mp3/DRUM-AND-BASS-SEPTEMBER-MIX-2-2021-MIXED-BY-PRECISE-MUSIC.mp3",
     url: "https://drive.google.com/file/d/1-_oGUcHfMvCcleiQN86HgH04AOoxM8xx/view?usp=drive_link",
     author: "Precise Music",
     title: "Drum and Bass September #2 Mix 2021",
     cover: require("./images/covers/september-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dephzac </div><div class='trackDash'>-</div><div class='trackName'> My Tears  (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Duskee x Disrupta </div><div class='trackDash'>-</div><div class='trackName'> Sweet Vanilla</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alix Perez ft. Liam Bailey </div><div class='trackDash'>-</div><div class='trackName'> Moving On (Break Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Bru-C</div><div class='trackDash'>-</div><div class='trackName'> You & I (Bou Remix)</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fred V </div><div class='trackDash'>-</div><div class='trackName'> Glockenspiel Riddim</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>K Motionz </div><div class='trackDash'>-</div><div class='trackName'> Tell You</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Delta Heavy </div><div class='trackDash'>-</div><div class='trackName'> Work It</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Scepticz </div><div class='trackDash'>-</div><div class='trackName'> Indigo Funk</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ill Truth </div><div class='trackDash'>-</div><div class='trackName'> Secrets</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Objectiv </div><div class='trackDash'>-</div><div class='trackName'> Crocs With Socks (Molecular Remix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Revaux </div><div class='trackDash'>-</div><div class='trackName'> Sacred</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Shanks </div><div class='trackDash'>-</div><div class='trackName'> The Outer Limits</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alix Perez </div><div class='trackDash'>-</div><div class='trackName'> Trinity (Skeptical Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Anapa </div><div class='trackDash'>-</div><div class='trackName'> Strife Dub</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Particle </div><div class='trackDash'>-</div><div class='trackName'> Business Techno</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sustance </div><div class='trackDash'>-</div><div class='trackName'> Virtue</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ccity </div><div class='trackDash'>-</div><div class='trackName'> Crazy (Vsylum x StillZ Remix ft. Evie)</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sub Focus </div><div class='trackDash'>-</div><div class='trackName'> World of Hurt (Bou Remix)</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mozey, Shady Novelle & Dynamite MC </div><div class='trackDash'>-</div><div class='trackName'> Midnight Caller</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>Arkaik </div><div class='trackDash'>-</div><div class='trackName'> Fate Determined  (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>MISO </div><div class='trackDash'>-</div><div class='trackName'> Wrong Dance</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Thematic & DLR </div><div class='trackDash'>-</div><div class='trackName'> Repeating Cycles of Funk</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data 3 & Bassi </div><div class='trackDash'>-</div><div class='trackName'> Qubit</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Ill Truth </div><div class='trackDash'>-</div><div class='trackName'> Flex</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Sidestep</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>Scepticz </div><div class='trackDash'>-</div><div class='trackName'> One Way or Another</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dedman & Miso </div><div class='trackDash'>-</div><div class='trackName'> Afraid</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mindmapper & Silvahfonk </div><div class='trackDash'>-</div><div class='trackName'> Flash Forward (Phentix Remix)</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Audiomission </div><div class='trackDash'>-</div><div class='trackName'> Walk Over (Jappa Remix)</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'>Volatile Cycle & Creatures </div><div class='trackDash'>-</div><div class='trackName'> Purify</div></div>
+            <div class='track'><div class='trackNumber'>031</div><div class='trackSeparator'>|</div><div class='trackArtist'>Felov </div><div class='trackDash'>-</div><div class='trackName'> Runaway</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=-Qn-pp1vxjo&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=23&pp=iAQB8AUB",
     spotify: "",
@@ -1033,7 +1200,37 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass September #1 Mix 2021",
     cover: require("./images/covers/september-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Keeno </div><div class='trackDash'>-</div><div class='trackName'> Behind The Glass</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Calyx & TeeBee </div><div class='trackDash'>-</div><div class='trackName'> Long Gone</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dephzac </div><div class='trackDash'>-</div><div class='trackName'> Fanatic  (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>MISO </div><div class='trackDash'>-</div><div class='trackName'> More Than Ever</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Revaux </div><div class='trackDash'>-</div><div class='trackName'> Frostbite  (Ill Truth Remix)</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data 3 </div><div class='trackDash'>-</div><div class='trackName'> Fossil</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei </div><div class='trackDash'>-</div><div class='trackName'> Transmitter</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Levela </div><div class='trackDash'>-</div><div class='trackName'> Outlaw</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Monty </div><div class='trackDash'>-</div><div class='trackName'> Tribes</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Nami </div><div class='trackDash'>-</div><div class='trackName'> Praxis</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Anapa </div><div class='trackDash'>-</div><div class='trackName'> Damager</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>JNB </div><div class='trackDash'>-</div><div class='trackName'> Dystopian Funk</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sola </div><div class='trackDash'>-</div><div class='trackName'> Lost In The Moment  (Airglo Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>StillZ </div><div class='trackDash'>-</div><div class='trackName'> Request</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Friction </div><div class='trackDash'>-</div><div class='trackName'> Battle Scars  (Alix Perez Remix)</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Riddim Up</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Volatile Cycle </div><div class='trackDash'>-</div><div class='trackName'> Floater</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>GEST </div><div class='trackDash'>-</div><div class='trackName'> Futurism</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>GEST </div><div class='trackDash'>-</div><div class='trackName'> No Doubt</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kyrist </div><div class='trackDash'>-</div><div class='trackName'> Bad Omen</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Low_r </div><div class='trackDash'>-</div><div class='trackName'> Parsley Soda</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Noisia </div><div class='trackDash'>-</div><div class='trackName'> Halcyon</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Chase Me Around</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Shake a Leg</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fre4knc </div><div class='trackDash'>-</div><div class='trackName'> Crustacean</div></div>
+            <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>Particle </div><div class='trackDash'>-</div><div class='trackName'> Wound</div></div>
+            <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>K Motionz </div><div class='trackDash'>-</div><div class='trackName'> Golem</div></div>
+            <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Subtle Element </div><div class='trackDash'>-</div><div class='trackName'> Dark Arts</div></div>
+            <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Unglued </div><div class='trackDash'>-</div><div class='trackName'> Malware</div></div>
+            <div class='track'><div class='trackNumber'>030</div><div class='trackSeparator'>|</div><div class='trackArtist'>Pola & Bryson </div><div class='trackDash'>-</div><div class='trackName'> Anaesthetist</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=NpKtWaqa07o&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=24&pp=iAQB8AUB",
     spotify: "",
@@ -1048,7 +1245,32 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass August #2 Mix 2021",
     cover: require("./images/covers/august-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Technimatic, Riya </div><div class='trackDash'>-</div><div class='trackName'> When the Dawn Breaks</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>BassBrothers </div><div class='trackDash'>-</div><div class='trackName'> Not Bossa Nova (Original Mix)</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Volatile Cycle, Kyrist, Creatures </div><div class='trackDash'>-</div><div class='trackName'> Rolex (Creatures Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fre4knc </div><div class='trackDash'>-</div><div class='trackName'> Follow</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Break </div><div class='trackDash'>-</div><div class='trackName'> Rollerblade</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>NickBee </div><div class='trackDash'>-</div><div class='trackName'> You I</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR </div><div class='trackDash'>-</div><div class='trackName'> Make My Mind Go</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Cauzer </div><div class='trackDash'>-</div><div class='trackName'> Groundwork</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Klinical </div><div class='trackDash'>-</div><div class='trackName'> Sinful</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>K Motionz, Duskee, Break </div><div class='trackDash'>-</div><div class='trackName'> Hack It (Break Remix)</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Document One </div><div class='trackDash'>-</div><div class='trackName'> Small Steps</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Volatile Cycle, Philth </div><div class='trackDash'>-</div><div class='trackName'> BRUK</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kumarion </div><div class='trackDash'>-</div><div class='trackName'> Pure Action</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR, Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Hassle Free</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data 3 </div><div class='trackDash'>-</div><div class='trackName'> Komparen</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Koax </div><div class='trackDash'>-</div><div class='trackName'> Exclusion</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Umbr3lla </div><div class='trackDash'>-</div><div class='trackName'> Epihet</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Black Barrel </div><div class='trackDash'>-</div><div class='trackName'> Let U Go</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Foreign Concept, Halogenix </div><div class='trackDash'>-</div><div class='trackName'> Waiheke Wine Club</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mirrorman </div><div class='trackDash'>-</div><div class='trackName'> Ski Sunday</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mefjus, Skeptical </div><div class='trackDash'>-</div><div class='trackName'> Amber</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Creatures </div><div class='trackDash'>-</div><div class='trackName'> Behemoth</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Jappa </div><div class='trackDash'>-</div><div class='trackName'> Keep On Movin</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Jappa </div><div class='trackDash'>-</div><div class='trackName'> Back To Basics</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Simple Souls, Flotation </div><div class='trackDash'>-</div><div class='trackName'> Basslines in the Sun</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=4roXvJ_qj78&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=25&pp=iAQB8AUB",
     spotify: "",
@@ -1063,7 +1285,32 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass August #1 Mix 2021",
     cover: require("./images/covers/august-1-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alix Perez </div><div class='trackDash'>-</div><div class='trackName'> Blank Pages</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Missing, Trex, Ella Jones </div><div class='trackDash'>-</div><div class='trackName'> Brighter Now</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Black Barell </div><div class='trackDash'>-</div><div class='trackName'> Combat</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR </div><div class='trackDash'>-</div><div class='trackName'> County Lines</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Villem, Mcleod, Degs </div><div class='trackDash'>-</div><div class='trackName'> Crossways (L-Side Remix)</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Monty </div><div class='trackDash'>-</div><div class='trackName'> F4DE</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Cadense, Sinematic (UK) </div><div class='trackDash'>-</div><div class='trackName'> Forgive (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Levela </div><div class='trackDash'>-</div><div class='trackName'> Jacked</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Voltage, Demolition Man </div><div class='trackDash'>-</div><div class='trackName'> Life Of A DJ (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>GLXY </div><div class='trackDash'>-</div><div class='trackName'> Method</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alix Perez, Liam Bailey </div><div class='trackDash'>-</div><div class='trackName'> Moving On</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>L-Side, DRS </div><div class='trackDash'>-</div><div class='trackName'> No Sound  (Dogger & Mindstate Remix)</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR, Script, MC Fokus </div><div class='trackDash'>-</div><div class='trackName'> Perception  (Molecular Remix)</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Screamarts </div><div class='trackDash'>-</div><div class='trackName'> Prodigy</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Foreign Concept, Enei, Magugu </div><div class='trackDash'>-</div><div class='trackName'> Sticks</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Villem, Zero T, Duskee </div><div class='trackDash'>-</div><div class='trackName'> Talk Loud</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Amoss </div><div class='trackDash'>-</div><div class='trackName'> The Feels</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Data3 </div><div class='trackDash'>-</div><div class='trackName'> Tric City (Waeys Remix)</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Alix Perez, Monty </div><div class='trackDash'>-</div><div class='trackName'> Untitled Malware</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>L-Side </div><div class='trackDash'>-</div><div class='trackName'> Untouchable</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kasra </div><div class='trackDash'>-</div><div class='trackName'> Us</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>Monrroe </div><div class='trackDash'>-</div><div class='trackName'> Warsaw</div></div>
+            <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>Villem, Leo Wood </div><div class='trackDash'>-</div><div class='trackName'> We Had A Song</div></div>
+            <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Visages </div><div class='trackDash'>-</div><div class='trackName'> Yalda</div></div>
+            <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fred V, Logistics </div><div class='trackDash'>-</div><div class='trackName'> You Keep Me High</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=4roXvJ_qj78&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=25&pp=iAQB8AUB",
     spotify: "",
@@ -1078,7 +1325,36 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass JULY #2 Mix 2021",
     cover: require("./images/covers/july-2-2021.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Future Cut </div><div class='trackDash'>-</div><div class='trackName'> 20/21 (DLR Remix)</div></div>
+              <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Spectrasoul </div><div class='trackDash'>-</div><div class='trackName'> 4URGH</div></div>
+              <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Kove </div><div class='trackDash'>-</div><div class='trackName'> Bearclaw</div></div>
+              <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>L-Side</div><div class='trackDash'>-</div><div class='trackName'> Bricks (ft. Stapleton)</div></div>
+              <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Jubei, Submotive </div><div class='trackDash'>-</div><div class='trackName'> Component</div></div>
+              <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Xtrah </div><div class='trackDash'>-</div><div class='trackName'> Compulsive  Original</div></div>
+              <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>InsideInfo </div><div class='trackDash'>-</div><div class='trackName'> Conformity</div></div>
+              <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Machine Code, Lockjaw </div><div class='trackDash'>-</div><div class='trackName'> Cry Me</div></div>
+              <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei </div><div class='trackDash'>-</div><div class='trackName'> Dirty</div></div>
+              <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Levela </div><div class='trackDash'>-</div><div class='trackName'> Elyse</div></div>
+              <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Keeno </div><div class='trackDash'>-</div><div class='trackName'> Eos</div></div>
+              <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>The Sauce, Fox </div><div class='trackDash'>-</div><div class='trackName'> Everything Boss</div></div>
+              <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Lisp </div><div class='trackDash'>-</div><div class='trackName'> Got Me Down</div></div>
+              <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Serum, The Sauce </div><div class='trackDash'>-</div><div class='trackName'> Got The Money</div></div>
+              <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Whiney </div><div class='trackDash'>-</div><div class='trackName'> Guardians</div></div>
+              <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>SØL </div><div class='trackDash'>-</div><div class='trackName'> Chasing Stars</div></div>
+              <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei, Jakes </div><div class='trackDash'>-</div><div class='trackName'> Master Key</div></div>
+              <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei, Kasra </div><div class='trackDash'>-</div><div class='trackName'> Projections</div></div>
+              <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Workforce </div><div class='trackDash'>-</div><div class='trackName'> Reasons</div></div>
+              <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>TC, Jakes </div><div class='trackDash'>-</div><div class='trackName'> Rep (S.P.Y Remix)</div></div>
+              <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei, Kasra </div><div class='trackDash'>-</div><div class='trackName'> Rolling Walls</div></div>
+              <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>L-Side</div><div class='trackDash'>-</div><div class='trackName'> Spellbound</div></div>
+              <div class='track'><div class='trackNumber'>023</div><div class='trackSeparator'>|</div><div class='trackArtist'>TC </div><div class='trackDash'>-</div><div class='trackName'> Rep (ft. Jakes)</div></div>
+              <div class='track'><div class='trackNumber'>024</div><div class='trackSeparator'>|</div><div class='trackArtist'>Justin Hawkes </div><div class='trackDash'>-</div><div class='trackName'> The Underground</div></div>
+              <div class='track'><div class='trackNumber'>025</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fred V, SAYAH </div><div class='trackDash'>-</div><div class='trackName'> Trust Me</div></div>
+              <div class='track'><div class='trackNumber'>026</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR </div><div class='trackDash'>-</div><div class='trackName'> U.D.O</div></div>
+              <div class='track'><div class='trackNumber'>027</div><div class='trackSeparator'>|</div><div class='trackArtist'>DC Breaks, Jay Faleye </div><div class='trackDash'>-</div><div class='trackName'> Underground (Tantrum Desire Remix)</div></div>
+              <div class='track'><div class='trackNumber'>028</div><div class='trackSeparator'>|</div><div class='trackArtist'>Invert Era, MC XL </div><div class='trackDash'>-</div><div class='trackName'> Understated (Original)</div></div>
+              <div class='track'><div class='trackNumber'>029</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fox, DLR, Alix Perez </div><div class='trackDash'>-</div><div class='trackName'> Walk Out</div></div>
+              `,
     youtube:
       "https://www.youtube.com/watch?v=6JAXfoxUqyI&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=27&pp=iAQB8AUB",
     spotify: "",
