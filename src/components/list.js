@@ -1532,7 +1532,20 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass March Mix 2021",
     cover: require("./images/covers/march-2021.jpg"),
-    tracks: ``,
+    tracks: `<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'> Nu:Tone </div><div class='trackDash'>-</div><div class='trackName'> One Day At A Time (ft. Lalin St. Juste)</div></div>
+            <div class='track'><div class='trackNumber'>0:03:41</div><div class='trackSeparator'>|</div><div class='trackArtist'> Rezilient </div><div class='trackDash'>-</div><div class='trackName'> Positive Reaction </div></div>
+            <div class='track'><div class='trackNumber'>0:07:21</div><div class='trackSeparator'>|</div><div class='trackArtist'> Keeno & Thomas Oliver </div><div class='trackDash'>-</div><div class='trackName'> Sunflowers </div></div>
+            <div class='track'><div class='trackNumber'>0:10:40</div><div class='trackSeparator'>|</div><div class='trackArtist'> Thomas Oliver </div><div class='trackDash'>-</div><div class='trackName'> Friendly Fire (Danny Byrd Remix) </div></div>
+            <div class='track'><div class='trackNumber'>0:13:59</div><div class='trackSeparator'>|</div><div class='trackArtist'> Nu:Logic </div><div class='trackDash'>-</div><div class='trackName'> Day & Night </div></div>
+            <div class='track'><div class='trackNumber'>0:17:17</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break feat. Kyo </div><div class='trackDash'>-</div><div class='trackName'> Gave Too Much </div></div>
+            <div class='track'><div class='trackNumber'>0:20:36</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> Hope (feat. Celestine) </div></div>
+            <div class='track'><div class='trackNumber'>0:23:10</div><div class='trackSeparator'>|</div><div class='trackArtist'> Prestige </div><div class='trackDash'>-</div><div class='trackName'> One Big Place </div></div>
+            <div class='track'><div class='trackNumber'>0:26:07</div><div class='trackSeparator'>|</div><div class='trackArtist'> Camo & Krooked </div><div class='trackDash'>-</div><div class='trackName'> Turn Up (The Music) (Pola & Bryson Remix) </div></div>
+            <div class='track'><div class='trackNumber'>0:29:26</div><div class='trackSeparator'>|</div><div class='trackArtist'> Revaux </div><div class='trackDash'>-</div><div class='trackName'> Colours (ft. Charli Brix) </div></div>
+            <div class='track'><div class='trackNumber'>0:34:57</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kumarion </div><div class='trackDash'>-</div><div class='trackName'> Instinct </div></div>
+            <div class='track'><div class='trackNumber'>0:36:48</div><div class='trackSeparator'>|</div><div class='trackArtist'> Enei & Kasra </div><div class='trackDash'>-</div><div class='trackName'> Projections (Mefjus Remix) </div></div>
+            <div class='track'><div class='trackNumber'>0:39:22</div><div class='trackSeparator'>|</div><div class='trackArtist'> Document One & Levela </div><div class='trackDash'>-</div><div class='trackName'> Steppa</div></div>
+            `,
     youtube:
       "https://www.youtube.com/watch?v=fQjeo3pn7Qg&list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X&index=32&pp=iAQB8AUB",
     spotify: "",
