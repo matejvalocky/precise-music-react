@@ -1599,3 +1599,31 @@ const list = [
 ];
 
 export default list;
+
+
+
+
+
+// ŠTATISTIKY
+// Funkcia na zistenie počtu 'div' s triedou 'trackNumber'
+function countTrackNumbers(tracksHtml) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(tracksHtml, 'text/html');
+  return doc.querySelectorAll('.trackNumber').length;
+}
+
+// Funkcia na spočítanie celkového počtu skladieb
+function getTotalTrackCount(list) {
+  return list.reduce((total, mix) => total + countTrackNumbers(mix.tracks), 0);
+}
+
+
+// Výpis počtu 'div' s triedou 'trackNumber' pre každý objekt
+list.forEach((mix) => {
+  console.log(`Mix: ${mix.title} - Počet skladieb: ${countTrackNumbers(mix.tracks)}`);
+});
+
+
+// Výpis celkového počtu skladieb
+const totalTracks = getTotalTrackCount(list);
+console.log(`Celkový počet skladieb: ${totalTracks}`);
