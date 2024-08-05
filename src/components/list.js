@@ -6,7 +6,27 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #4",
     cover: require("./images/covers/2024-04-mix.jpg") ,
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Andromedik, Lexurus, Nu-La</div><div class='trackDash'>-</div><div class='trackName'> Adrenaline</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Culture Shock </div><div class='trackDash'>-</div><div class='trackName'> Get To Me</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Delta Heavy, Cameron Warren </div><div class='trackDash'>-</div><div class='trackName'> Bad Decisions</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'> Friction, Metrik </div><div class='trackDash'>-</div><div class='trackName'> Ultrafunk</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'> Sub Focus, Gene Farris </div><div class='trackDash'>-</div><div class='trackName'> It's Time</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'> Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Rhythm</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'> Break </div><div class='trackDash'>-</div><div class='trackName'> All You Gotta Do</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'> Crystal Clear </div><div class='trackDash'>-</div><div class='trackName'> Wavey</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'> Fourward </div><div class='trackDash'>-</div><div class='trackName'> Countdown (Instrumental Mix)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'> Kalane </div><div class='trackDash'>-</div><div class='trackName'> Frost</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'> Waeys </div><div class='trackDash'>-</div><div class='trackName'> This Tune</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trail, Monty </div><div class='trackDash'>-</div><div class='trackName'> Wraith</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'> Trail, Visages </div><div class='trackDash'>-</div><div class='trackName'> Comet</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'> DJ Marky, XRS, Makoto </div><div class='trackDash'>-</div><div class='trackName'> Soul Samba (DJ Marky & Makoto Remix 2024)</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'> Shy FX, Mr. Williamz, KingH </div><div class='trackDash'>-</div><div class='trackName'> Gideon's Charge (feat. KINGH)</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'> SOLAH </div><div class='trackDash'>-</div><div class='trackName'> Stick Around</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'> DJ Marky, Pola & Bryson, IYAMAH </div><div class='trackDash'>-</div><div class='trackName'> Be There</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'> Blue Marble </div><div class='trackDash'>-</div><div class='trackName'> Time to Love Again</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'> Dope Ammo, Taiwan Mc, Ed Solo </div><div class='trackDash'>-</div><div class='trackName'> Babylon Falling (Ed Solo Remix)</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'> Ruth Royall </div><div class='trackDash'>-</div><div class='trackName'> Feels Like Home</div></div>
+            `,
     youtube: "",
     spotify: "",
     housemixes: ""
