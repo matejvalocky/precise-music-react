@@ -29,7 +29,7 @@ const list = [
             `,
     youtube: "",
     spotify: "",
-    housemixes: ""
+    housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-4-by-precise-music"
   },
   {
     id: 38,
