@@ -29,15 +29,11 @@ section a img{
     background-image: url(../../img/background/background-texture.jpg);
 }
 
-.iconsUnderOneMix{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .iconsUnderOneMix a{
      padding-top: 15px;
+     
 }
 
 

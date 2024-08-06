@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import list from "../components/list"
 
+import "./animatedButtons.css"
+import "./animatedButtonsQueries.css"
+
 import youtubeIcon from "../../src/mixIcons/youtube.png"
 import housemixesIcon from "../../src/mixIcons/house-mixes.jpg"
 import downloadIcon from "../../src/mixIcons/download.png"
@@ -47,12 +50,66 @@ const OneMovie = () => {
     <div className="tracks_icons">
       <p className="tracklist" dangerouslySetInnerHTML={{ __html: tracks }} />
 
-      <div className="iconsUnderOneMix">
-          <a href={housemixes} target="_blank" rel="noreferrer"><img src={housemixesIcon} alt=""  /></a> <br />
-          <a href={youtube} target="_blank" rel="noreferrer"><img src={youtubeIcon} alt="" /></a> <br />
-          <a href={url} target="_blank" rel="noreferrer"><img src={downloadIcon} alt="" /></a> <br /> 
-          <Link to="/mixes"><img className="backImage" src={backIcon} alt="" /></Link>
+
+
+      
+      <div class=" iconsUnderOneMix visitButtons tracklist">
+
+      <div className="buttonGroup">
+              <a href={url} target="_blank" rel="noreferrer">
+        <button style={{ '--clr': '#39FF14' }}>
+            <span>
+              <img src={downloadIcon} alt="" /> Download Mix
+            </span>
+            <i></i>
+          </button>
+      </a>
+
+          
+      <a href={youtube} target="_blank" rel="noreferrer">
+        <button style={{ '--clr': 'red' }}>
+                  <span>
+                    <img src={youtubeIcon} alt="" /> YouTube
+                  </span>
+                  <i></i>
+          </button>
+      </a>
       </div>
+
+
+<div className="buttonGroup">
+        <a href={housemixes} target="_blank" rel="noreferrer">
+        <button style={{ '--clr': 'orange' }}>
+            <span>
+              <img src={housemixesIcon}  alt="" /> House-Mixes
+            </span>
+            <i></i>
+          </button>
+      </a>
+          
+
+          
+      <Link to="/mixes">
+      <button style={{ '--clr': 'white' }}>
+            <span>
+              <img src={backIcon}  alt="" /> Back
+            </span>
+            <i></i>
+          </button>
+      </Link>
+</div>
+
+
+          
+
+      </div>
+
+  
+      
+
+     
+
+      
     </div>
 
     
