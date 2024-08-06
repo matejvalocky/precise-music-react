@@ -43,7 +43,7 @@
     content: "";
     position: absolute;
     inset: 2px;
-    background: #272822;
+    background-color: #17181B;
   }
   
   button span {
@@ -89,6 +89,7 @@
     bottom: -2px;
     border: 2px solid var(--clr);
     background: #272822;
+
     transition: 0.2s;
   }
   
