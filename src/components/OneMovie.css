@@ -94,7 +94,7 @@ section a img{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -115,11 +115,13 @@ section a img{
 
 
 .trackArtist{
-    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
 }
 
 .trackDash{
@@ -131,3 +133,8 @@ section a img{
 }
 
 
+.trackName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
