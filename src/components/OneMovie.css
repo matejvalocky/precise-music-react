@@ -80,13 +80,7 @@ section a img{
     
 }
 
-.tracks_icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-}
+
 
 
 
@@ -100,7 +94,8 @@ section a img{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -111,7 +106,7 @@ section a img{
 }
 
 .trackSeparator{
-    width: 5px;
+    width: 10px;
     padding-right: 10px;
     height: 100%;
     /* background-color: black; */
@@ -136,6 +131,3 @@ section a img{
 }
 
 
-.trackName{
-    height: 100%;
-}

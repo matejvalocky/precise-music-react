@@ -47,7 +47,7 @@ const OneMovie = () => {
     </div>
     
     {/* <p>mixed by <h3>{author}</h3></p> */}
-    <div className="tracks_icons">
+    
       <p className="tracklist" dangerouslySetInnerHTML={{ __html: tracks }} />
 
 
@@ -110,7 +110,7 @@ const OneMovie = () => {
      
 
       
-    </div>
+    
 
     
     
