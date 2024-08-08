@@ -119,16 +119,11 @@ section a img{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; 
 }
 
 .trackDash{
-    
-    width: 5px;
+    width: 10px;
     height: 100%;
-    /* background-color: black; */
     text-align: center;
 }
 

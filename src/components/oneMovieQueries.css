@@ -28,7 +28,7 @@
 
 
 @media only screen and (max-width: 870px) {
-  
+
 
   .coverTitle {
     /* background-color: red; */
@@ -68,5 +68,24 @@
   /* background-color: green; */
   min-width: 55px;
   
+}
+
+.trackArtist{
+  letter-spacing: 0.01px;
+  font-weight: bold;
+}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /* udalosti pod 600 pixelov šírky */
+
+  .trackNumber{
+    display: none;
+}
+
+.trackSeparator{
+  display: none;
 }
 }
