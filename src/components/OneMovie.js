@@ -89,7 +89,7 @@ const OneMovie = () => {
 
               <div className="metadataItem">
                 <h3>Duration:</h3>
-                <p>temporary unavailable</p>
+                <p>N/A</p>
               </div>
 
             </div>
