@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import list from '../components/list';
-import { parseBuffer } from 'music-metadata';
 import './animatedButtons.css';
 import './animatedButtonsQueries.css';
 import youtubeIcon from '../../src/mixIcons/youtube.png';
