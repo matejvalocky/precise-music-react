@@ -101,6 +101,11 @@ const OneMovie = () => {
                 <p>{metadata.mimeType}</p>
               </div>
 
+              <div className="metadataItem">
+                <h3>Duration:</h3>
+                <p>{duration}</p>
+              </div>
+
             </div>
           )}
 
