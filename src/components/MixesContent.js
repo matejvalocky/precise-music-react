@@ -72,7 +72,7 @@ const MixesContent = () => {
                     <img
                       className="oneMixCover"
                       src={oneMixFromList.cover}
-                      alt=""
+                      alt="mix Cover"
                     />
                   </Link>
                   <Link
