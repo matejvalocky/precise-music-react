@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import list from '../components/list';
-
+import { parseBuffer } from 'music-metadata';
 import './animatedButtons.css';
 import './animatedButtonsQueries.css';
 import youtubeIcon from '../../src/mixIcons/youtube.png';
@@ -29,12 +29,26 @@ function bytesToMegabytes(bytes) {
   return (bytes / (1024 * 1024)).toFixed(2); // zaokrúhľuje na dve desatinné miesta
 }
 
+// Funkcia na získanie trvania MP3 súboru
+async function getMp3Duration(url) {
+  try {
+    const response = await fetch(url);
+    const arrayBuffer = await response.arrayBuffer();
+    const metadata = await parseBuffer(arrayBuffer, 'audio/mp3');
+    return metadata.format.duration; // v sekundách
+  } catch (error) {
+    console.error('Chyba pri získavaní trvania MP3', error);
+    return null;
+  }
+}
+
 const OneMovie = () => {
   const { movieId } = useParams();
   const oneSpecificMovie = list.find((oneMovie) => oneMovie.id === parseInt(movieId));
   const { url, title, cover, tracks, youtube, housemixes } = oneSpecificMovie;
 
   const [metadata, setMetadata] = React.useState(null);
+  const [duration, setDuration] = React.useState(null);
 
   React.useEffect(() => {
     async function fetchData() {
@@ -43,6 +57,10 @@ const OneMovie = () => {
         const fileId = new URL(url).pathname.split('/')[3];
         const fileMetadata = await getFileMetadata(fileId);
         setMetadata(fileMetadata);
+
+        // Získanie trvania MP3 súboru
+        const mp3Duration = await getMp3Duration(url);
+        setDuration(mp3Duration);
       } catch (error) {
         console.error('Chyba pri získavaní metadát', error);
       }
@@ -61,16 +79,30 @@ const OneMovie = () => {
           </div>
 
           <p className="tracklist" dangerouslySetInnerHTML={{ __html: tracks }} />
-          <p className="tracklist">
+
           {metadata && (
             <div className="metadata">
-              <p>Size: {bytesToMegabytes(metadata.size)} MB</p>
-              <p>Name: {metadata.name}</p>
-              <p>Type: {metadata.mimeType}</p>
+            
+              <h2>File information</h2>
+
+              <div className="metadataItem">
+                <h3>Name:</h3>
+                <p> {metadata.name}</p>
+              </div>
+
+              <div className="metadataItem">
+                  <h3>Size: </h3>
+                  <p> {bytesToMegabytes(metadata.size)} MB</p>
+              </div>
+
+
+              <div className="metadataItem">
+                <h3>Type</h3>
+                <p>{metadata.mimeType}</p>
+              </div>
+
             </div>
           )}
-          </p>
-       
 
           <div className="iconsUnderOneMix visitButtons tracklist">
             <div className="buttonGroup">

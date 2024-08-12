@@ -134,3 +134,27 @@ section a img{
     white-space: nowrap; 
 }
 
+.metadata{
+ width: 100%;
+}
+
+.metadataItem{
+    padding: 20px 0;
+    border-bottom: 1px rgb(126, 126, 126) dotted;
+}
+
+.metadata h2{
+    color: white;
+    margin-top: 60px;
+    border-bottom: 1px rgb(219, 219, 219) solid;
+}
+
+.metadataItem h3{
+    color: white;
+}
+
+.metadataItem p{
+    padding: 3px 0;
+    font-size: 12px;
+}
+
