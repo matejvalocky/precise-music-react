@@ -97,7 +97,7 @@ const MixesContent = () => {
                       </div>
                       <div className="oneInfo">
                         <h3>File size:</h3>
-                        <p>{fileSizes[oneMixFromList.id] + " MB" || 'Loading please wait...'}</p>
+                        <p>{fileSizes[oneMixFromList.id] + " MB" || 'Loading...'}</p>
                       </div>
                     </div>
                   </Link>
