@@ -29,18 +29,7 @@ function bytesToMegabytes(bytes) {
   return (bytes / (1024 * 1024)).toFixed(2); // zaokrúhľuje na dve desatinné miesta
 }
 
-// Funkcia na získanie trvania MP3 súboru
-async function getMp3Duration(url) {
-  try {
-    const response = await fetch(url);
-    const arrayBuffer = await response.arrayBuffer();
-    const metadata = await parseBuffer(arrayBuffer, 'audio/mp3');
-    return metadata.format.duration; // v sekundách
-  } catch (error) {
-    console.error('Chyba pri získavaní trvania MP3', error);
-    return null;
-  }
-}
+
 
 const OneMovie = () => {
   const { movieId } = useParams();
@@ -48,7 +37,7 @@ const OneMovie = () => {
   const { url, title, cover, tracks, youtube, housemixes } = oneSpecificMovie;
 
   const [metadata, setMetadata] = React.useState(null);
-  const [duration, setDuration] = React.useState(null);
+  
 
   React.useEffect(() => {
     async function fetchData() {
@@ -58,9 +47,6 @@ const OneMovie = () => {
         const fileMetadata = await getFileMetadata(fileId);
         setMetadata(fileMetadata);
 
-        // Získanie trvania MP3 súboru
-        const mp3Duration = await getMp3Duration(url);
-        setDuration(mp3Duration);
       } catch (error) {
         console.error('Chyba pri získavaní metadát', error);
       }
@@ -103,7 +89,7 @@ const OneMovie = () => {
 
               <div className="metadataItem">
                 <h3>Duration:</h3>
-                <p>{duration}</p>
+                <p>temporary unavailable</p>
               </div>
 
             </div>
