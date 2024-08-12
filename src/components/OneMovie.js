@@ -82,7 +82,7 @@ const OneMovie = () => {
 
           {metadata && (
             <div className="metadata">
-            
+
               <h2>File information</h2>
 
               <div className="metadataItem">
@@ -91,13 +91,13 @@ const OneMovie = () => {
               </div>
 
               <div className="metadataItem">
-                  <h3>Size: </h3>
+                  <h3>Size:</h3>
                   <p> {bytesToMegabytes(metadata.size)} MB</p>
               </div>
 
 
               <div className="metadataItem">
-                <h3>Type</h3>
+                <h3>Type:</h3>
                 <p>{metadata.mimeType}</p>
               </div>
 
