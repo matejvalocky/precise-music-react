@@ -154,18 +154,24 @@ nav ul li .icon :not(:hover){
 }
 
 .linksIcon{
+    cursor: pointer;
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20%;
     filter: grayscale(1.50);
-    cursor: pointer;
 }
 
 .linksIcon:hover{
     filter: grayscale(0.00);
     transform: scale(1.5);
+    transition: .5s ease all;
+}
+
+.linksIcon:not(:hover){
+    filter: grayscale(1.50);
+    transform: scale(1.0);
     transition: .5s ease all;
 }
 

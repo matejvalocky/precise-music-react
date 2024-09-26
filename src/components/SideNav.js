@@ -44,11 +44,11 @@ const SideNav = () => {
         </div>
         <div className="year">
           <p>2024</p>
-          <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank" rel="noreferrer">Template</a> <br />
+         {/*  <a href="https://preview.themeforest.net/item/watson-vcard-resume-cv-portfolio-template/full_screen_preview/22526409" target="_blank" rel="noreferrer">Template</a> <br />
           <a href="https://www.flaticon.com/" target="_blank"  rel="noreferrer">Icons</a> <br />
           <a href="https://codepen.io/alvarotrigo/pen/wvrzPWL" target="_blank"  rel="noreferrer">Hamburger menu</a> <br />
           <a href="https://react-slideshow-image.netlify.app/?path=/story/introduction--page" target="_blank"  rel="noreferrer">React Slideshow</a> <br />
-          <a href="https://www.freepik.com/free-ai-image/black-orange-background-with-wavy-pattern_42539426.htm#fromView=search&page=1&position=25&uuid=29cc97e2-4d83-4557-83f6-a4448bdd01d5" target="_blank"  rel="noreferrer">Background image</a>
+          <a href="https://www.freepik.com/free-ai-image/black-orange-background-with-wavy-pattern_42539426.htm#fromView=search&page=1&position=25&uuid=29cc97e2-4d83-4557-83f6-a4448bdd01d5" target="_blank"  rel="noreferrer">Background image</a> */}
         </div>
       </div> 
     </aside>
