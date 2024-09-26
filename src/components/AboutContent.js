@@ -37,11 +37,30 @@ const AboutContent = () => {
         </div> */}
         <div className="aboutWrapper">
             {/* <h2>English</h2> */}
-            <p>Imagine a DJ who fell in love with mixing music as a 15-year-old teenager. He started with House and later switched to Drum and Bass. His precision in choosing individual tracks and transitions are completely unique and characteristic of his music mixes. Of course he has his first and last name, but he uses the moniker "Precise Music". When mixing tracks, he strives to achieve the ultimate experience for his listeners.</p>
-            <p>Precise Music doesn't just focus on the crowd favourites, but also tries to discover and use the lesser known tracks. He strives to bring new sounds and moments of surprise that keep the audience in a state of maximum excitement throughout his set.</p>
-            <p>Thanks to his mixing skills and precision, Precise Music can create truly unique mixes that will thrill any listener. With each mix, he makes sure that the transitions between tracks are as precise as possible and not perceived as violent.</p>
-            <p>For Precise Music, music is not just a pastime, but a true passion. That's why he's constantly striving to perfect his art and find new ways to improve his mixes and bring them to the next level.</p>
+            <div className="section">
+              <p>Imagine a DJ who fell in love with mixing music as a 15-year-old teenager. He started with House and later switched to Drum and Bass. His precision in choosing individual tracks and transitions are completely unique and characteristic of his music mixes. Of course he has his first and last name, but he uses the moniker "Precise Music". When mixing tracks, he strives to achieve the ultimate experience for his listeners.</p>
+              <div className="aboutImage aboutImage1"></div>
+            </div>
+           
+           <div className="section">
+              <div className="aboutImage aboutImage2"></div>
+              <p>Precise Music doesn't just focus on the crowd favourites, but also tries to discover and use the lesser known tracks. He strives to bring new sounds and moments of surprise that keep the audience in a state of maximum excitement throughout his set.</p>
+           </div>
+           
+           <div className="section">
+              <p>Thanks to his mixing skills and precision, Precise Music can create truly unique mixes that will thrill any listener. With each mix, he makes sure that the transitions between tracks are as precise as possible and not perceived as violent.</p>
+              <div className="aboutImage aboutImage3"></div>
+           </div>
+
+           <div className="section">
+              <div className="aboutImage aboutImage4"></div>
+              <p>For Precise Music, music is not just a pastime, but a true passion. That's why he's constantly striving to perfect his art and find new ways to improve his mixes and bring them to the next level.</p>
+           </div>
+
+           <div className="section">
             <p>You can look forward to a whole new experience when he performs and a musical experience that won't leave you long after his set is over. Precise Music is a true master of his craft and his passion for music will make for an unforgettable experience.</p>
+            <div className="aboutImage aboutImage5"></div>
+           </div>
         </div>
        </div></animated.div>
 

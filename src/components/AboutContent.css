@@ -1,40 +1,81 @@
-.aboutContent{
-    
-    background-color: #2C2D2F;
-    background-image: url(../../img/background/background-texture.jpg);
+.aboutContent {
+  background-color: #2c2d2f;
+  background-image: url(../../img/background/background-texture.jpg);
 }
 
-
-
-.languageWrapper{
-    background-color: black;
-    opacity: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    z-index: -100;
-    
-   
+.section {
+  background-color: #00000048;
+  padding: 10px;
+  border: 0.5px rgba(94, 94, 94, 0.5) solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
-.aboutWrapper{
-    padding: 20px 0;
-    margin: 0 50px;
-    color: white;
-    width: 500px;
-    text-align: justify;
-    margin-top: 50px;
-    margin-bottom: 200px;
+.section p {
+  width: 80%;
+  line-height: 35px;
+  padding: 30px;
 }
 
-
-
-.aboutWrapper h2{
-    color: white;
-    text-decoration: underline;
+.aboutImage {
+  width: 500px;
+  aspect-ratio: 4.5/3;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.aboutWrapper p{
-    margin: 25px 0;;
+.aboutImage:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease all;
+}
+
+.aboutImage1 {
+  background-image: url(../slideshow//img1.jpg);
+}
+
+.aboutImage2 {
+  background-image: url(../slideshow//img2.jpg);
+}
+
+.aboutImage3 {
+  background-image: url(../slideshow//img3.jpg);
+}
+
+.aboutImage4 {
+  background-image: url(../slideshow//img4.jpg);
+}
+
+.aboutImage5 {
+  background-image: url(../slideshow//img5.jpg);
+}
+
+.languageWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.aboutWrapper {
+  padding: 20px 0;
+  margin: 0 50px;
+  color: white;
+  width: 1200px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.aboutWrapper h2 {
+  color: white;
+  text-decoration: underline;
+}
+
+.aboutWrapper p {
+  margin: 25px 0;
 }

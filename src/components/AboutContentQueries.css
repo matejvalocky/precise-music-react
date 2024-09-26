@@ -9,46 +9,13 @@
    /************************************************************/
 
 
+
+
+
+
    @media only screen and (max-width: 1500px){
     .languageWrapper{
-        background-color: black;
-        opacity: 75%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        z-index: -100;
        
-    }
-
-    .aboutWrapper{
-        padding: 20px 0;
-        margin: 0 20px;
-        color: white;
-        width: 500px;
-        text-align: justify;
-        margin-top: 50px;
-        margin-bottom: 200px;
-       
-    }
-    
-    .aboutWrapper h2{
-        
-        color: white;
-        text-decoration: underline;
-    }
-    
-    .aboutWrapper p{
-        margin: 25px 0;;
-    }
-   }
-
-
-
-   @media only screen and (max-width: 1330px){
-    .languageWrapper{
-        background-color: black;
-        opacity: 75%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -75,8 +42,14 @@
     }
     
     .aboutWrapper p{
-        font-size: 18px;
+       
         margin: 15px 0;;
+    }
+   }
+
+   @media only screen and (max-width: 1280px){
+    .section p{
+        line-height: 23px ;
     }
    }
 
@@ -86,23 +59,38 @@
         font-size: 15px;
         margin: 15px 0;;
     }
+
+    .section p{
+        line-height: 20px;
+    }
    }
 
-   @media only screen and (max-width: 500px){
-    .aboutWrapper p{
-        padding: 0 10px;
+   @media only screen and (max-width: 767px){
+    .section p{
         font-size: 13px;
-        margin: 15px 0;;
-    }
-
-    .aboutWrapper h2{
-        padding: 0 10px;
-        color: white;
-        text-decoration: underline;
-    }
-
-    .aboutWrapper{
-        margin-top: 50px;
-        margin-bottom: 200px;
+        line-height: 17px ;
     }
    }
+
+
+   @media only screen and (max-width: 650px){
+    .section {
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      
+      }
+
+      .section p{
+        width: 100%;
+        padding: 10px 0;
+      }
+
+      .aboutImage{
+        width: 100%;
+      }
+   }
+
