@@ -1,0 +1,20 @@
+@media only screen and (max-width: 990px){
+    /* udalosti pod 990 pixelov šírky */
+   }
+
+@media only screen and (min-width: 990px){
+    /* udalosti nad 990 pixelov šírky */
+   }
+
+   /************************************************************/
+
+
+   @media only screen and (max-width: 730px){
+    .wrapperLinks {
+        flex-direction: column;
+      }
+
+      .linkImage{
+        margin: 3px 0;
+      }
+   }
