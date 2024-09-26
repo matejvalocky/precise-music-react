@@ -34,6 +34,11 @@
   transition: 0.5s ease all;
 }
 
+.aboutImage:not(:hover){
+  transform: scale(1.0);
+  transition: 0.2s ease all;
+}
+
 .aboutImage1 {
   background-image: url(../slideshow//img1.jpg);
 }
