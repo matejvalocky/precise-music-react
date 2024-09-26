@@ -1,6 +1,12 @@
 .linksContent {
   background-color: #2c2d2f;
   background-image: url(../../img/background/background-texture.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.linksContent h1{
+    color: white;
 }
 
 .wrapperLinks {
@@ -15,7 +21,6 @@
 
 .linkImage {
   position: relative;
-
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -41,10 +46,6 @@
   align-items: center;
   padding-left: 10px;
 }
-
-
-
-
 
 .linkImage a:hover {
   font-size: 30px;
