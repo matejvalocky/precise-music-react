@@ -67,12 +67,12 @@
 }
 
 .aboutWrapper {
-  padding: 20px 0;
+  padding-bottom: 20px;
   margin: 0 50px;
   color: white;
   width: 1200px;
   text-align: justify;
-  margin-top: 50px;
+  margin-top: 0;
   margin-bottom: 200px;
 }
 
