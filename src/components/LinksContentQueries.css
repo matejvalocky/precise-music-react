@@ -20,6 +20,10 @@
         
        
       }
+
+      .linksContent{
+        justify-content: flex-start;
+      }
    }
 
 
