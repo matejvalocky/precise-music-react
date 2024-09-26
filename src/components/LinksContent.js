@@ -5,6 +5,7 @@ import React from 'react'
 
 const LinksContent = () => {
   return <div className="linksContent">
+  <h1>LINKS</h1>
     <div className="wrapperLinks">
         <div className="linkImage"><a href="https://www.youtube.com/@PreciseMusic/videos" target="_blank"  rel="noreferrer">YouTube</a></div>
         <div className="linkImage"><a href="https://www.house-mixes.com/profile/PreciseMusic" target="_blank"  rel="noreferrer">HouseMixes</a></div>

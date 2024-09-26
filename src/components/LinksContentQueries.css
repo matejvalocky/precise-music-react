@@ -23,7 +23,7 @@
    }
 
 
-   @media only screen and (max-height: 800px){
+   @media only screen and (max-height: 865px){
     .linkImage{
         width: 150px;
         height: 150px;
