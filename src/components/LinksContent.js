@@ -4,7 +4,7 @@ import "./LinksContentQueries.css"
 import React from 'react'
 
 const LinksContent = () => {
-  return <div className="linksContent content">
+  return <div className="linksContent">
     <div className="wrapperLinks">
         <div className="linkImage"><a href="https://www.youtube.com/@PreciseMusic/videos" target="_blank"  rel="noreferrer">YouTube</a></div>
         <div className="linkImage"><a href="https://www.house-mixes.com/profile/PreciseMusic" target="_blank"  rel="noreferrer">HouseMixes</a></div>

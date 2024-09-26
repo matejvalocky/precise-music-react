@@ -16,7 +16,16 @@
 
       .linkImage{
         margin: 3px 0;
+       
+        
+       
+      }
+   }
+
+
+   @media only screen and (max-height: 800px){
+    .linkImage{
         width: 150px;
         height: 150px;
-      }
+    }
    }
