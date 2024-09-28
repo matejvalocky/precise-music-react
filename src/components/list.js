@@ -1,11 +1,24 @@
 const list = [
-    {
+  {
+    id: 40,
+    year: 2024,
+    url: "https://drive.google.com/file/d/1xe9-9eIzNGpVJy-zvHae6fgbynARGdjB/view?usp=drive_link",
+    author: "Precise Music",
+    title: "Drum and Bass 2024 Mix #5",
+    cover: require("./images/covers//2024-05-mix.jpg"),
+    tracks: "TRACKLIST SOON",
+    youtube: "",
+    spotify: "",
+    housemixes: "",
+  },
+
+  {
     id: 39,
     year: 2024,
-    url:"https://drive.google.com/file/d/1l_cZDbVBwfTbWnOqZikXkPG_j9RJdGbt/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1l_cZDbVBwfTbWnOqZikXkPG_j9RJdGbt/view?usp=drive_link",
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #4",
-    cover: require("./images/covers/2024-04-mix.jpg") ,
+    cover: require("./images/covers/2024-04-mix.jpg"),
     tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'> Andromedik, Lexurus, Nu-La</div><div class='trackDash'>-</div><div class='trackName'> Adrenaline</div></div>
             <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'> Culture Shock </div><div class='trackDash'>-</div><div class='trackName'> Get To Me</div></div>
             <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'> Delta Heavy, Cameron Warren </div><div class='trackDash'>-</div><div class='trackName'> Bad Decisions</div></div>
@@ -29,7 +42,8 @@ const list = [
             `,
     youtube: "https://youtu.be/i0R9P7uUzqg",
     spotify: "",
-    housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-4-by-precise-music"
+    housemixes:
+      "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-4-by-precise-music",
   },
   {
     id: 38,
@@ -52,7 +66,8 @@ const list = [
             `,
     youtube: "https://youtu.be/EC5EE1umwxE",
     spotify: "",
-    housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-3",
+    housemixes:
+      "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-3",
   },
   {
     id: 37,
@@ -61,8 +76,7 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #2",
     cover: require("./images/covers/2024-02-mix.jpg"),
-    tracks:
-      `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Workforce, Break </div><div class='trackDash'>-</div><div class='trackName'> Slippery Fella</div></div>
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Workforce, Break </div><div class='trackDash'>-</div><div class='trackName'> Slippery Fella</div></div>
       <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Amoss, Minor Forms </div><div class='trackDash'>-</div><div class='trackName'> Way Better</div></div>
       <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tantrum Desire </div><div class='trackDash'>-</div><div class='trackName'> Cluster</div></div>
       <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Muzz </div><div class='trackDash'>-</div><div class='trackName'> Rain Dance</div></div>
@@ -102,7 +116,7 @@ const list = [
             <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Arkaik & Coma </div><div class='trackDash'>-</div><div class='trackName'> Mind Games (ft. Ray Uptown) [6d]</div></div>
             <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sense MC </div><div class='trackDash'>-</div><div class='trackName'> A Penny for My Thoughts [7m]</div></div>
             `,
-     
+
     youtube: "https://www.youtube.com/watch?v=4nNMnUaYciw&t=0s",
     spotify: "",
     housemixes:
@@ -449,7 +463,7 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass September Mix 2022",
     cover: require("./images/covers/september-2022.jpg"),
-    tracks:`<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'>Break </div><div class='trackDash'>-</div><div class='trackName'> If I Could</div></div>
+    tracks: `<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'>Break </div><div class='trackDash'>-</div><div class='trackName'> If I Could</div></div>
             <div class='track'><div class='trackNumber'>0:04:03</div><div class='trackSeparator'>|</div><div class='trackArtist'>Total Science </div><div class='trackDash'>-</div><div class='trackName'> Walk The Same Lines (ft. Riya)</div></div>
             <div class='track'><div class='trackNumber'>0:06:59</div><div class='trackSeparator'>|</div><div class='trackArtist'>Logistics </div><div class='trackDash'>-</div><div class='trackName'> Take Me To Another World (ft. Stella Attar)</div></div>
             <div class='track'><div class='trackNumber'>0:10:18</div><div class='trackSeparator'>|</div><div class='trackArtist'>Metrik </div><div class='trackDash'>-</div><div class='trackName'> Chasing Sunrise (feat. Elisabeth Troy)</div></div>
@@ -491,7 +505,7 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass August Mix 2022",
     cover: require("./images/covers/august-2022.jpg"),
-    tracks:   `<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'>Forthcoming </div><div class='trackDash'>-</div><div class='trackName'> Dreams Do Come True</div></div>
+    tracks: `<div class='track'><div class='trackNumber'>0:00:00</div><div class='trackSeparator'>|</div><div class='trackArtist'>Forthcoming </div><div class='trackDash'>-</div><div class='trackName'> Dreams Do Come True</div></div>
               <div class='track'><div class='trackNumber'>0:04:48</div><div class='trackSeparator'>|</div><div class='trackArtist'>Hugh Hardie </div><div class='trackDash'>-</div><div class='trackName'> Said & Done (feat. DJ Marky & Cimone)</div></div>
               <div class='track'><div class='trackNumber'>0:08:04</div><div class='trackSeparator'>|</div><div class='trackArtist'>Lenzman </div><div class='trackDash'>-</div><div class='trackName'> Golden Age Full Vocal Mix feat Dan Stezo & Steo</div></div>
               <div class='track'><div class='trackNumber'>0:11:47</div><div class='trackSeparator'>|</div><div class='trackArtist'>Mage </div><div class='trackDash'>-</div><div class='trackName'> Lucky Charm</div></div>
@@ -541,8 +555,9 @@ const list = [
               <div class='track'><div class='trackNumber'>2:56:50</div><div class='trackSeparator'>|</div><div class='trackArtist'>Tidal </div><div class='trackDash'>-</div><div class='trackName'> Jazz Tonight (Original Mix)</div></div>
               <div class='track'><div class='trackNumber'>2:59:24</div><div class='trackSeparator'>|</div><div class='trackArtist'>Bally & Boom </div><div class='trackDash'>-</div><div class='trackName'> Let It Whip</div></div>
               <div class='track'><div class='trackNumber'>3:02:55</div><div class='trackSeparator'>|</div><div class='trackArtist'>Eugenics Eight </div><div class='trackDash'>-</div><div class='trackName'> She Can Wait Forever (Original Mix)</div></div>
-              `, 
-    youtube: "https://youtu.be/2QvT9zR4qoY?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
+              `,
+    youtube:
+      "https://youtu.be/2QvT9zR4qoY?list=PL8sueKk45oWuIUD12VpGmtRgxfJqGDW7X",
     spotify: "",
     housemixes:
       "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-august-mix-2022-mixed-by-precise-music",
@@ -1632,16 +1647,12 @@ const list = [
 
 export default list;
 
-
-
-
-
 // ŠTATISTIKY
 // Funkcia na zistenie počtu 'div' s triedou 'trackNumber'
 function countTrackNumbers(tracksHtml) {
   const parser = new DOMParser();
-  const doc = parser.parseFromString(tracksHtml, 'text/html');
-  return doc.querySelectorAll('.trackNumber').length;
+  const doc = parser.parseFromString(tracksHtml, "text/html");
+  return doc.querySelectorAll(".trackNumber").length;
 }
 
 // Funkcia na spočítanie celkového počtu skladieb
@@ -1649,12 +1660,12 @@ function getTotalTrackCount(list) {
   return list.reduce((total, mix) => total + countTrackNumbers(mix.tracks), 0);
 }
 
-
 // Výpis počtu 'div' s triedou 'trackNumber' pre každý objekt
 list.forEach((mix) => {
-  console.log(`Mix: ${mix.title} - Počet skladieb: ${countTrackNumbers(mix.tracks)}`);
+  console.log(
+    `Mix: ${mix.title} - Počet skladieb: ${countTrackNumbers(mix.tracks)}`
+  );
 });
-
 
 // Výpis celkového počtu skladieb
 const totalTracks = getTotalTrackCount(list);
