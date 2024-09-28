@@ -5,7 +5,7 @@ const list = [
     url: "https://drive.google.com/file/d/1xe9-9eIzNGpVJy-zvHae6fgbynARGdjB/view?usp=drive_link",
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #5",
-    cover: require("./images/covers//2024-05-mix.jpg"),
+    cover: require("./images/covers/2024-05-mix.jpg"),
     tracks: "TRACKLIST SOON",
     youtube: "",
     spotify: "",
