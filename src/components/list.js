@@ -6,10 +6,32 @@ const list = [
     author: "Precise Music",
     title: "Drum and Bass 2024 Mix #5",
     cover: require("./images/covers/2024-05-mix.jpg"),
-    tracks: "TRACKLIST SOON",
+    tracks: `<div class='track'><div class='trackNumber'>001</div><div class='trackSeparator'>|</div><div class='trackArtist'>Keeno</div><div class='trackDash'>-</div><div class='trackName'>Branches</div></div>
+            <div class='track'><div class='trackNumber'>002</div><div class='trackSeparator'>|</div><div class='trackArtist'>Dimension, Alison Wonderland</div><div class='trackDash'>-</div><div class='trackName'>Satellite (SOTA Remix)</div></div>
+            <div class='track'><div class='trackNumber'>003</div><div class='trackSeparator'>|</div><div class='trackArtist'>Chicane, Bryan Adams</div><div class='trackDash'>-</div><div class='trackName'>Don't Give Up (Grafix Remix)</div></div>
+            <div class='track'><div class='trackNumber'>004</div><div class='trackSeparator'>|</div><div class='trackArtist'>Aktive - Loko</div><div class='trackDash'>-</div><div class='trackName'>Loko</div></div>
+            <div class='track'><div class='trackNumber'>005</div><div class='trackSeparator'>|</div><div class='trackArtist'>Maduk, Lexurus, Crooked Bangs</div><div class='trackDash'>-</div><div class='trackName'>Follow My Heart</div></div>
+            <div class='track'><div class='trackNumber'>006</div><div class='trackSeparator'>|</div><div class='trackArtist'>Waeys</div><div class='trackDash'>-</div><div class='trackName'>Stopping Turning</div></div>
+            <div class='track'><div class='trackNumber'>007</div><div class='trackSeparator'>|</div><div class='trackArtist'>Fred V, Dnmo, Paul Dowling</div><div class='trackDash'>-</div><div class='trackName'>Collide</div></div>
+            <div class='track'><div class='trackNumber'>008</div><div class='trackSeparator'>|</div><div class='trackArtist'>Freddy B, Emperor</div><div class='trackDash'>-</div><div class='trackName'>Swarm</div></div>
+            <div class='track'><div class='trackNumber'>009</div><div class='trackSeparator'>|</div><div class='trackArtist'>Wilkinson, Emily Makis</div><div class='trackDash'>-</div><div class='trackName'>Break It Down (feat. Emily Makis)</div></div>
+            <div class='track'><div class='trackNumber'>010</div><div class='trackSeparator'>|</div><div class='trackArtist'>Sub Focus</div><div class='trackDash'>-</div><div class='trackName'>Wildfire</div></div>
+            <div class='track'><div class='trackNumber'>011</div><div class='trackSeparator'>|</div><div class='trackArtist'>Chris Lorenzo</div><div class='trackDash'>-</div><div class='trackName'>Pump (1991 Remix)</div></div>
+            <div class='track'><div class='trackNumber'>012</div><div class='trackSeparator'>|</div><div class='trackArtist'>Makoto, L-Side</div><div class='trackDash'>-</div><div class='trackName'>Settle Down</div></div>
+            <div class='track'><div class='trackNumber'>013</div><div class='trackSeparator'>|</div><div class='trackArtist'>Andromedik, Rani</div><div class='trackDash'>-</div><div class='trackName'>Bleed The Same</div></div>
+            <div class='track'><div class='trackNumber'>014</div><div class='trackSeparator'>|</div><div class='trackArtist'>Total Science, S.P.Y</div><div class='trackDash'>-</div><div class='trackName'>Gangsta (Watch the Ride Remix)</div></div>
+            <div class='track'><div class='trackNumber'>015</div><div class='trackSeparator'>|</div><div class='trackArtist'>Blue Marble</div><div class='trackDash'>-</div><div class='trackName'>Je Me Souviendrai</div></div>
+            <div class='track'><div class='trackNumber'>016</div><div class='trackSeparator'>|</div><div class='trackArtist'>Level 2</div><div class='trackDash'>-</div><div class='trackName'>Bite the Bone</div></div>
+            <div class='track'><div class='trackNumber'>017</div><div class='trackSeparator'>|</div><div class='trackArtist'>Funkstar De Luxe, Fred V</div><div class='trackDash'>-</div><div class='trackName'>Sun Is Shining</div></div>
+            <div class='track'><div class='trackNumber'>018</div><div class='trackSeparator'>|</div><div class='trackArtist'>Friction, ÆON-MODE, Blanke, Lauren L’aimant</div><div class='trackDash'>-</div><div class='trackName'>State Of Mind</div></div>
+            <div class='track'><div class='trackNumber'>019</div><div class='trackSeparator'>|</div><div class='trackArtist'>Enei</div><div class='trackDash'>-</div><div class='trackName'>Want It</div></div>
+            <div class='track'><div class='trackNumber'>020</div><div class='trackSeparator'>|</div><div class='trackArtist'>DLR</div><div class='trackDash'>-</div><div class='trackName'>Brain Eaters</div></div>
+            <div class='track'><div class='trackNumber'>021</div><div class='trackSeparator'>|</div><div class='trackArtist'>Delta Heavy, You</div><div class='trackDash'>-</div><div class='trackName'>Babylon</div></div>
+            <div class='track'><div class='trackNumber'>022</div><div class='trackSeparator'>|</div><div class='trackArtist'>DJ Marky, SOLAH</div><div class='trackDash'>-</div><div class='trackName'>Poetry</div></div>`,
     youtube: "",
     spotify: "",
-    housemixes: "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-5",
+    housemixes:
+      "https://www.house-mixes.com/profile/PreciseMusic/drum-and-bass-2024-mix-5",
   },
 
   {
@@ -1638,7 +1660,7 @@ const list = [
   //   author: "Precise Music",
   //   title: "Drum and Bass xxxxxxx Mix 2024",
   //   cover: require("./images/covers/xxxxxxxx.jpg") ,
-  //   tracks: "TRACKLIST SOON",
+  //   tracks: ``,
   //   youtube: "",
   //   spotify: "",
   //   housemixes: ""
