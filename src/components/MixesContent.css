@@ -1,6 +1,8 @@
 .mixesContent{
     background-color: #2C2D2F;
     background-image: url(../../img/background/background-texture2.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .allMixes{
